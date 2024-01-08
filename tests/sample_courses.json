@@ -1,0 +1,1147 @@
+[
+        {
+            "id": 3584,
+            "topics": [
+                {
+                    "id": 32,
+                    "name": "Engineering"
+                },
+                {
+                    "id": 42,
+                    "name": "Electrical Engineering"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes"
+            ],
+            "departments": [
+                {
+                    "department_id": "6",
+                    "name": "Electrical Engineering and Computer Science"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 2224,
+                    "instructors": [
+                        {
+                            "id": 966,
+                            "first_name": "Gim",
+                            "last_name": "Hom",
+                            "full_name": "Gim Hom"
+                        }
+                    ],
+                    "image": {
+                        "id": 2288,
+                        "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008/fc669b859c6991ac679eeb1a40ac69c5_6-091iap08.jpg",
+                        "description": "In this lecture and lab course, students learn to use electrical instruments including function generators, oscilloscopes, and multimeters. Photograph courtesy of jbgeekdad on Flickr.  (link over \"jbgeekdad\" to http://www.flickr.com/photos/jbgeekdad/1347629139/)",
+                        "alt": "Photograph of a multimeter."
+                    },
+                    "run_id": "8a0c893a1902034ecb6a319233ee0509",
+                    "title": "Hands-On Introduction to Electrical Engineering Lab Skills",
+                    "description": "This course introduces students to both passive and active electronic components (op-amps, 555 timers, TTL digital circuits). Basic analog and digital circuits and theory of operation are covered. The labs allow the students to master the use of electronic instruments and construct and/or solder several circuits. The labs also reinforce the concepts discussed in class with a hands-on approach and allow the students to gain significant experience with electrical instruments such as function generators, digital multimeters, oscilloscopes, logic analyzers and power supplies. In the last lab, the students build an electronic circuit that they can keep. The course is geared to freshmen and others who want an introduction to electronics circuits.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T14:18:49Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
+                    "level": "Undergraduate",
+                    "slug": "courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
+                    "availability": "Current",
+                    "semester": "January IAP",
+                    "year": 2008,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 2288,
+                "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008/fc669b859c6991ac679eeb1a40ac69c5_6-091iap08.jpg",
+                "description": "In this lecture and lab course, students learn to use electrical instruments including function generators, oscilloscopes, and multimeters. Photograph courtesy of jbgeekdad on Flickr.  (link over \"jbgeekdad\" to http://www.flickr.com/photos/jbgeekdad/1347629139/)",
+                "alt": "Photograph of a multimeter."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "6.091",
+                        "department": {
+                            "department_id": "6",
+                            "name": "Electrical Engineering and Computer Science"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "6.091+january-iap_2008",
+            "title": "Hands-On Introduction to Electrical Engineering Lab Skills",
+            "description": "This course introduces students to both passive and active electronic components (op-amps, 555 timers, TTL digital circuits). Basic analog and digital circuits and theory of operation are covered. The labs allow the students to master the use of electronic instruments and construct and/or solder several circuits. The labs also reinforce the concepts discussed in class with a hands-on approach and allow the students to gain significant experience with electrical instruments such as function generators, digital multimeters, oscilloscopes, logic analyzers and power supplies. In the last lab, the students build an electronic circuit that they can keep. The course is geared to freshmen and others who want an introduction to electronics circuits.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T14:18:49Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
+            "professional": false
+        },
+        {
+            "id": 4097,
+            "topics": [
+                {
+                    "id": 32,
+                    "name": "Engineering"
+                },
+                {
+                    "id": 1,
+                    "name": "Science"
+                },
+                {
+                    "id": 41,
+                    "name": "Chemistry"
+                },
+                {
+                    "id": 73,
+                    "name": "Thermodynamics"
+                },
+                {
+                    "id": 140,
+                    "name": "Materials Science and Engineering"
+                },
+                {
+                    "id": 209,
+                    "name": "Physical Chemistry"
+                },
+                {
+                    "id": 30,
+                    "name": "Physics"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Problem Sets with Solutions",
+                "Exams with Solutions"
+            ],
+            "departments": [
+                {
+                    "department_id": "3",
+                    "name": "Materials Science and Engineering"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 2737,
+                    "instructors": [
+                        {
+                            "id": 1459,
+                            "first_name": "Samuel",
+                            "last_name": "Allen",
+                            "full_name": "Prof. Samuel Allen"
+                        },
+                        {
+                            "id": 744,
+                            "first_name": "Thomas",
+                            "last_name": "Eagar",
+                            "full_name": "Prof. Thomas Eagar"
+                        }
+                    ],
+                    "image": {
+                        "id": 2800,
+                        "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006/e36a3cb8c1066c086fd68559ce31ba3b_3-205f06.jpg",
+                        "description": "Randomly dispersed foreign particles produce \"dizzy dendrites,\" in which the tree-like branches in the crystals tend to curve and split, instead of forming the straight, symmetric patterns typical of pure crystals. This sample was grown in an 80 nanometer-thick film of two blended polymers with randomly dispersed clay particles. (Photo courtesy of the National Institute of Standards and Technology (NIST).)",
+                        "alt": "Photo of dizzy dendrite."
+                    },
+                    "run_id": "cf9250f842fe6dc89189ad76c296a18f",
+                    "title": "Thermodynamics and Kinetics of Materials",
+                    "description": "This course explores materials and materials processes from the perspective of thermodynamics and kinetics. The thermodynamics aspect includes laws of thermodynamics, solution theory and equilibrium diagrams. The kinetics aspect includes diffusion, phase transformations, and the development of microstructure.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T15:25:12Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
+                    "level": "Graduate",
+                    "slug": "courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
+                    "availability": "Current",
+                    "semester": "Fall",
+                    "year": 2006,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 2800,
+                "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006/e36a3cb8c1066c086fd68559ce31ba3b_3-205f06.jpg",
+                "description": "Randomly dispersed foreign particles produce \"dizzy dendrites,\" in which the tree-like branches in the crystals tend to curve and split, instead of forming the straight, symmetric patterns typical of pure crystals. This sample was grown in an 80 nanometer-thick film of two blended polymers with randomly dispersed clay particles. (Photo courtesy of the National Institute of Standards and Technology (NIST).)",
+                "alt": "Photo of dizzy dendrite."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "3.205",
+                        "department": {
+                            "department_id": "3",
+                            "name": "Materials Science and Engineering"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "3.205+fall_2006",
+            "title": "Thermodynamics and Kinetics of Materials",
+            "description": "This course explores materials and materials processes from the perspective of thermodynamics and kinetics. The thermodynamics aspect includes laws of thermodynamics, solution theory and equilibrium diagrams. The kinetics aspect includes diffusion, phase transformations, and the development of microstructure.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T15:25:12Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
+            "professional": false
+        },
+        {
+            "id": 4238,
+            "topics": [
+                {
+                    "id": 4,
+                    "name": "Social Science"
+                },
+                {
+                    "id": 38,
+                    "name": "Humanities"
+                },
+                {
+                    "id": 11,
+                    "name": "Communication"
+                },
+                {
+                    "id": 47,
+                    "name": "Language"
+                },
+                {
+                    "id": 80,
+                    "name": "Anthropology"
+                },
+                {
+                    "id": 79,
+                    "name": "Cultural Anthropology"
+                },
+                {
+                    "id": 307,
+                    "name": "English as a Second Language"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Written Assignments"
+            ],
+            "departments": [
+                {
+                    "department_id": "21G",
+                    "name": "Global Studies and Languages"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 2878,
+                    "instructors": [
+                        {
+                            "id": 1590,
+                            "first_name": "Jane",
+                            "last_name": "Dunphy",
+                            "full_name": "Jane Dunphy"
+                        }
+                    ],
+                    "image": {
+                        "id": 2940,
+                        "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019/4d24a55ffb6894fe96be4df86c3ace02_21g-221s19.jpg",
+                        "description": "",
+                        "alt": "Barack Obama holding a microphone and speaking outdoors in front of a number of people."
+                    },
+                    "run_id": "29859e86452391cf4b62bf2729ddc45c",
+                    "title": "Communicating in American Culture(s)",
+                    "description": "In _Communicating in American Culture(s)_, bilingual students examine how various aspects of American culture—history, geography, institutions, traditions, values—have shaped dominant Anglo-American communication norms and responses to critical events in the world. In addition, you can expect to practice and strengthen your analytical and communication skills in a carefully scaffolded manner, starting with frequent short writing and speaking tasks and progressing to longer, more formal tasks.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T15:53:03Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019",
+                    "level": "Undergraduate",
+                    "slug": "courses/21g-221-communicating-in-american-culture-s-spring-2019",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2019,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 2940,
+                "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019/4d24a55ffb6894fe96be4df86c3ace02_21g-221s19.jpg",
+                "description": "",
+                "alt": "Barack Obama holding a microphone and speaking outdoors in front of a number of people."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "21G.221",
+                        "department": {
+                            "department_id": "21G",
+                            "name": "Global Studies and Languages"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "21G.221+spring_2019",
+            "title": "Communicating in American Culture(s)",
+            "description": "In _Communicating in American Culture(s)_, bilingual students examine how various aspects of American culture—history, geography, institutions, traditions, values—have shaped dominant Anglo-American communication norms and responses to critical events in the world. In addition, you can expect to practice and strengthen your analytical and communication skills in a carefully scaffolded manner, starting with frequent short writing and speaking tasks and progressing to longer, more formal tasks.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T15:53:03Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019",
+            "professional": false
+        },
+        {
+            "id": 5589,
+            "topics": [
+                {
+                    "id": 128,
+                    "name": "Biochemistry"
+                },
+                {
+                    "id": 1,
+                    "name": "Science"
+                },
+                {
+                    "id": 2,
+                    "name": "Biology"
+                },
+                {
+                    "id": 214,
+                    "name": "Molecular Biology"
+                },
+                {
+                    "id": 215,
+                    "name": "Cell Biology"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Written Assignments",
+                "Presentation Assignments"
+            ],
+            "departments": [
+                {
+                    "department_id": "7",
+                    "name": "Biology"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 4229,
+                    "instructors": [
+                        {
+                            "id": 2473,
+                            "first_name": "Megan",
+                            "last_name": "Kizer",
+                            "full_name": "Dr. Megan Kizer"
+                        },
+                        {
+                            "id": 2474,
+                            "first_name": "Robbie",
+                            "last_name": "Wilson",
+                            "full_name": "Dr. Robbie Wilson"
+                        }
+                    ],
+                    "image": {
+                        "id": 4280,
+                        "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022/7-341s22.jpg",
+                        "description": null,
+                        "alt": "A multi-colored 3 dimensional illustration, shaped like a bumpy donut, representing the structure of an emzyme and its interconnected domains."
+                    },
+                    "run_id": "360461e5a0bd4e26bad6f2a3eeefd668",
+                    "title": "Turning Evolutionary Dials: Directed Evolution Techniques for Climate Change and Beyond",
+                    "description": "This course will cover the many ways in which we have realized evolution in the laboratory toward functional biomolecules, such as protein and nucleic-acid-based therapeutics, enzymes that catalyze production of synthetic drugs, and carbon-dioxide capture molecules to lessen the impact of climate change. Students will both become familiar with the field of directed molecular evolution and learn how to critically analyze primary research papers, design research experiments, and present data relating to molecular biology and evolution. The importance of directed evolution in biomedical and biotechnological careers, both academic and industrial, will be highlighted.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T14:28:06Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
+                    "level": "Undergraduate",
+                    "slug": "courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2022,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 4280,
+                "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022/7-341s22.jpg",
+                "description": null,
+                "alt": "A multi-colored 3 dimensional illustration, shaped like a bumpy donut, representing the structure of an emzyme and its interconnected domains."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "7.341",
+                        "department": {
+                            "department_id": "7",
+                            "name": "Biology"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "7.341+spring_2022",
+            "title": "Turning Evolutionary Dials: Directed Evolution Techniques for Climate Change and Beyond",
+            "description": "This course will cover the many ways in which we have realized evolution in the laboratory toward functional biomolecules, such as protein and nucleic-acid-based therapeutics, enzymes that catalyze production of synthetic drugs, and carbon-dioxide capture molecules to lessen the impact of climate change. Students will both become familiar with the field of directed molecular evolution and learn how to critically analyze primary research papers, design research experiments, and present data relating to molecular biology and evolution. The importance of directed evolution in biomedical and biotechnological careers, both academic and industrial, will be highlighted.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.",
+            "full_description": null,
+            "last_modified": "2023-12-06T14:28:06Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
+            "professional": false
+        },
+        {
+            "id": 4113,
+            "topics": [
+                {
+                    "id": 32,
+                    "name": "Engineering"
+                },
+                {
+                    "id": 37,
+                    "name": "Mathematics"
+                },
+                {
+                    "id": 36,
+                    "name": "Probability and Statistics"
+                },
+                {
+                    "id": 29,
+                    "name": "Systems Engineering"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Problem Sets with Solutions",
+                "Exams with Solutions"
+            ],
+            "departments": [
+                {
+                    "department_id": "22",
+                    "name": "Nuclear Science and Engineering"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 2753,
+                    "instructors": [
+                        {
+                            "id": 1445,
+                            "first_name": "Michael",
+                            "last_name": "Golay",
+                            "full_name": "Prof. Michael Golay"
+                        }
+                    ],
+                    "image": {
+                        "id": 2816,
+                        "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005/6fbd15d7ca09fae7e66c97bd1a59c848_22-38f05.jpg",
+                        "description": "A fault tree from the NASA Accident Analysis Team in Report of the Presidential Commission on the Space Shuttle Challenger Accident. (Courtesy of NASA.)",
+                        "alt": "Fault tree for external tank and solid rocket booster."
+                    },
+                    "run_id": "010c552ac85a7e0e278ca154294c3892",
+                    "title": "Probability And Its Applications To Reliability, Quality Control, And Risk Assessment",
+                    "description": "This course covers interpretations of the concept of probability. Topics include basic probability rules; random variables and distribution functions; functions of random variables; and applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. The course also considers elements of statistics; Bayesian methods in engineering; methods for reliability and risk assessment of complex systems (event-tree and fault-tree analysis, common-cause failures, human reliability models); uncertainty propagation in complex systems (Monte Carlo methods, Latin Hypercube Sampling); and an introduction to Markov models. Examples and applications are drawn from nuclear and other industries, waste repositories, and mechanical systems.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T14:33:16Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
+                    "level": "Graduate",
+                    "slug": "courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
+                    "availability": "Current",
+                    "semester": "Fall",
+                    "year": 2005,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 2816,
+                "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005/6fbd15d7ca09fae7e66c97bd1a59c848_22-38f05.jpg",
+                "description": "A fault tree from the NASA Accident Analysis Team in Report of the Presidential Commission on the Space Shuttle Challenger Accident. (Courtesy of NASA.)",
+                "alt": "Fault tree for external tank and solid rocket booster."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "22.38",
+                        "department": {
+                            "department_id": "22",
+                            "name": "Nuclear Science and Engineering"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "22.38+fall_2005",
+            "title": "Probability And Its Applications To Reliability, Quality Control, And Risk Assessment",
+            "description": "This course covers interpretations of the concept of probability. Topics include basic probability rules; random variables and distribution functions; functions of random variables; and applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. The course also considers elements of statistics; Bayesian methods in engineering; methods for reliability and risk assessment of complex systems (event-tree and fault-tree analysis, common-cause failures, human reliability models); uncertainty propagation in complex systems (Monte Carlo methods, Latin Hypercube Sampling); and an introduction to Markov models. Examples and applications are drawn from nuclear and other industries, waste repositories, and mechanical systems.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T14:33:16Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
+            "professional": false
+        },
+        {
+            "id": 4041,
+            "topics": [
+                {
+                    "id": 186,
+                    "name": "Industrial Relations and Human Resource Management"
+                },
+                {
+                    "id": 7,
+                    "name": "Business"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Exams"
+            ],
+            "departments": [
+                {
+                    "department_id": "15",
+                    "name": "Sloan School of Management"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 2681,
+                    "instructors": [
+                        {
+                            "id": 779,
+                            "first_name": "Diane",
+                            "last_name": "Burton",
+                            "full_name": "Prof. Diane Burton"
+                        },
+                        {
+                            "id": 703,
+                            "first_name": "Paul",
+                            "last_name": "Osterman",
+                            "full_name": "Prof. Paul Osterman"
+                        }
+                    ],
+                    "image": {
+                        "id": 2744,
+                        "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003/10124a7188f51cee59a8bd9b3a0aad44_15-660s03.jpg",
+                        "description": "",
+                        "alt": "Bobsled team competing in Winter Olympics."
+                    },
+                    "run_id": "d0d1f5f5bb6f3a2b8a13dd87abc76b8c",
+                    "title": "Strategic HR Management",
+                    "description": "This course is about both the design and execution of human resource management strategies. This course has two central themes: (1) How to think systematically and strategically about aspects of managing the organization's human assets, and (2) What really needs to be done to implement these policies and to achieve competitive advantage. It adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T14:18:56Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003",
+                    "level": "Graduate",
+                    "slug": "courses/15-660-strategic-hr-management-spring-2003",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2003,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 2744,
+                "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003/10124a7188f51cee59a8bd9b3a0aad44_15-660s03.jpg",
+                "description": "",
+                "alt": "Bobsled team competing in Winter Olympics."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "15.660",
+                        "department": {
+                            "department_id": "15",
+                            "name": "Sloan School of Management"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "15.660+spring_2003",
+            "title": "Strategic HR Management",
+            "description": "This course is about both the design and execution of human resource management strategies. This course has two central themes: (1) How to think systematically and strategically about aspects of managing the organization's human assets, and (2) What really needs to be done to implement these policies and to achieve competitive advantage. It adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T14:18:56Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003",
+            "professional": false
+        },
+        {
+            "id": 4698,
+            "topics": [
+                {
+                    "id": 156,
+                    "name": "Linguistics"
+                },
+                {
+                    "id": 182,
+                    "name": "Phonology"
+                },
+                {
+                    "id": 38,
+                    "name": "Humanities"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Written Assignments",
+                "Problem Sets"
+            ],
+            "departments": [
+                {
+                    "department_id": "24",
+                    "name": "Linguistics and Philosophy"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 3338,
+                    "instructors": [
+                        {
+                            "id": 699,
+                            "first_name": "Edward",
+                            "last_name": "Flemming",
+                            "full_name": "Prof. Edward Flemming"
+                        }
+                    ],
+                    "image": {
+                        "id": 3398,
+                        "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015/ceb01a247960c746f44324ee761b9cdd_24-915f15.jpg",
+                        "description": "CHP image of a waveform for the f15 iteration of 24.915.",
+                        "alt": "On the right is a waveform in black on a blue background, and on the left shows trees reflecting on a still lake with snowy mountains in the background."
+                    },
+                    "run_id": "9bff24096453777f38e55c662d0e7767",
+                    "title": "Linguistic Phonetics",
+                    "description": "This course is about the study of speech sounds; how we produce and perceive them and their acoustic properties. Topics include the influence of the production and perception systems on phonological patterns and sound change, students learn acoustic analysis and experimental techniques. Students taking the graduate version complete different assignments.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T15:32:05Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015",
+                    "level": "Undergraduate, Graduate",
+                    "slug": "courses/24-915-linguistic-phonetics-fall-2015",
+                    "availability": "Current",
+                    "semester": "Fall",
+                    "year": 2015,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 3398,
+                "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015/ceb01a247960c746f44324ee761b9cdd_24-915f15.jpg",
+                "description": "CHP image of a waveform for the f15 iteration of 24.915.",
+                "alt": "On the right is a waveform in black on a blue background, and on the left shows trees reflecting on a still lake with snowy mountains in the background."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "24.915",
+                        "department": {
+                            "department_id": "24",
+                            "name": "Linguistics and Philosophy"
+                        },
+                        "listing_type": "primary"
+                    },
+                    {
+                        "value": "24.963",
+                        "department": {
+                            "department_id": "24",
+                            "name": "Linguistics and Philosophy"
+                        },
+                        "listing_type": "cross-listed"
+                    }
+                ]
+            },
+            "readable_id": "24.915+fall_2015",
+            "title": "Linguistic Phonetics",
+            "description": "This course is about the study of speech sounds; how we produce and perceive them and their acoustic properties. Topics include the influence of the production and perception systems on phonological patterns and sound change, students learn acoustic analysis and experimental techniques. Students taking the graduate version complete different assignments.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T15:32:05Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015",
+            "professional": false
+        },
+        {
+            "id": 4541,
+            "topics": [
+                {
+                    "id": 4,
+                    "name": "Social Science"
+                },
+                {
+                    "id": 7,
+                    "name": "Business"
+                },
+                {
+                    "id": 8,
+                    "name": "Political Science"
+                },
+                {
+                    "id": 9,
+                    "name": "Society"
+                },
+                {
+                    "id": 235,
+                    "name": "Women's Studies"
+                },
+                {
+                    "id": 15,
+                    "name": "Leadership"
+                },
+                {
+                    "id": 208,
+                    "name": "Gender Studies"
+                },
+                {
+                    "id": 49,
+                    "name": "Public Policy"
+                },
+                {
+                    "id": 308,
+                    "name": "Social Welfare"
+                },
+                {
+                    "id": 53,
+                    "name": "Public Administration"
+                },
+                {
+                    "id": 281,
+                    "name": "American Politics"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Written Assignments with Examples",
+                "Instructor Insights"
+            ],
+            "departments": [
+                {
+                    "department_id": "WGS",
+                    "name": "Women's and Gender Studies"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 3181,
+                    "instructors": [
+                        {
+                            "id": 1848,
+                            "first_name": "Mindy",
+                            "last_name": "Fried",
+                            "full_name": "Dr. Mindy Fried"
+                        }
+                    ],
+                    "image": {
+                        "id": 3241,
+                        "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014/2888e7c93814bc3ade6901fbee38bb10_wgs-s10s14.jpg",
+                        "description": "During an International Women's Day demonstration in Valencia, Spain, women gathered to collectively breastfeed to advocate for their rights as working mothers. Image courtesy of Amadeu Sanz on Flickr. CC NC-BY-SA.",
+                        "alt": "A photograph of a group of women sit on the ground nursing their babies."
+                    },
+                    "run_id": "18f30b4ebe6ae04244d9b6fdf7de4e9e",
+                    "title": "Gender, Power, Leadership, and the Workplace",
+                    "description": "This course will provide students with an analytic framework to understand the roles that gender, race, and class play in defining and determining access to leadership and power in the U.S., especially in the context of the workplace. We will explore women and men in leadership positions within the corporate, political and non-profit sectors, with attention to the roles of women of color and immigrant women within this context. We will also look at specific policies such as affirmative action, parental leave, child-care policy, and working-time policies and the role they play–or could play–in achieving parity. We will further investigate ways in which these policies address gender, racial, and class inequities, and think critically about mechanisms for change. The course will be highly interactive, and will combine texts, theater, videos and visual arts.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T14:14:29Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
+                    "level": "Undergraduate",
+                    "slug": "courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2014,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 3241,
+                "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014/2888e7c93814bc3ade6901fbee38bb10_wgs-s10s14.jpg",
+                "description": "During an International Women's Day demonstration in Valencia, Spain, women gathered to collectively breastfeed to advocate for their rights as working mothers. Image courtesy of Amadeu Sanz on Flickr. CC NC-BY-SA.",
+                "alt": "A photograph of a group of women sit on the ground nursing their babies."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "WGS.S10",
+                        "department": {
+                            "department_id": "WGS",
+                            "name": "Women's and Gender Studies"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "WGS.S10+spring_2014",
+            "title": "Gender, Power, Leadership, and the Workplace",
+            "description": "This course will provide students with an analytic framework to understand the roles that gender, race, and class play in defining and determining access to leadership and power in the U.S., especially in the context of the workplace. We will explore women and men in leadership positions within the corporate, political and non-profit sectors, with attention to the roles of women of color and immigrant women within this context. We will also look at specific policies such as affirmative action, parental leave, child-care policy, and working-time policies and the role they play–or could play–in achieving parity. We will further investigate ways in which these policies address gender, racial, and class inequities, and think critically about mechanisms for change. The course will be highly interactive, and will combine texts, theater, videos and visual arts.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T14:14:29Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
+            "professional": false
+        },
+        {
+            "id": 5246,
+            "topics": [
+                {
+                    "id": 36,
+                    "name": "Probability and Statistics"
+                },
+                {
+                    "id": 37,
+                    "name": "Mathematics"
+                },
+                {
+                    "id": 159,
+                    "name": "Mathematical Analysis"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Problem Sets"
+            ],
+            "departments": [
+                {
+                    "department_id": "18",
+                    "name": "Mathematics"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 3886,
+                    "instructors": [
+                        {
+                            "id": 1175,
+                            "first_name": "Scott",
+                            "last_name": "Sheffield",
+                            "full_name": "Prof. Scott Sheffield"
+                        }
+                    ],
+                    "image": {
+                        "id": 3942,
+                        "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/27c7527c8726658ad43f1e098d73b67e_18-175s14.jpg",
+                        "description": "Diffusion through a liquid. Image courtesy of Sanath Kumar on Flickr. CC BY 2.0. ",
+                        "alt": "Image of a blue substance diffusing through a clear liquid."
+                    },
+                    "run_id": "3ffc15bd89dc2b022008638010618126",
+                    "title": "Theory of Probability",
+                    "description": "This course covers topics such as sums of independent random variables, central limit phenomena, infinitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T15:05:29Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014",
+                    "level": "Graduate",
+                    "slug": "courses/18-175-theory-of-probability-spring-2014",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2014,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 3942,
+                "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/27c7527c8726658ad43f1e098d73b67e_18-175s14.jpg",
+                "description": "Diffusion through a liquid. Image courtesy of Sanath Kumar on Flickr. CC BY 2.0. ",
+                "alt": "Image of a blue substance diffusing through a clear liquid."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "18.175",
+                        "department": {
+                            "department_id": "18",
+                            "name": "Mathematics"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "18.175+spring_2014",
+            "title": "Theory of Probability",
+            "description": "This course covers topics such as sums of independent random variables, central limit phenomena, infinitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T15:05:29Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014",
+            "professional": false
+        },
+        {
+            "id": 4726,
+            "topics": [
+                {
+                    "id": 17,
+                    "name": "Marketing"
+                },
+                {
+                    "id": 10,
+                    "name": "Entrepreneurship"
+                },
+                {
+                    "id": 7,
+                    "name": "Business"
+                }
+            ],
+            "offered_by": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "platform": {
+                "code": "ocw",
+                "name": "OCW"
+            },
+            "resource_content_tags": [
+                "Lecture Notes",
+                "Written Assignments with Examples"
+            ],
+            "departments": [
+                {
+                    "department_id": "15",
+                    "name": "Sloan School of Management"
+                }
+            ],
+            "certification": false,
+            "prices": [],
+            "runs": [
+                {
+                    "id": 3366,
+                    "instructors": [
+                        {
+                            "id": 1976,
+                            "first_name": "Jin",
+                            "last_name": "Kim",
+                            "full_name": "Prof. Jin Gyo Kim"
+                        }
+                    ],
+                    "image": {
+                        "id": 3426,
+                        "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002/6efc1711d37e8e136ae578131f10f11a_15-835s02.jpg",
+                        "description": "Major themes of entrepreneurial marketing. (Diagram by Prof. Jin Gyo Kim.)",
+                        "alt": "An illustration containing the central themes and questions of entrepreneurial ventures and marketing."
+                    },
+                    "run_id": "9e4b93ac9f130565f1fb9a238751ab9b",
+                    "title": "Entrepreneurial Marketing",
+                    "description": "This course clarifies key marketing concepts, methods, and strategic issues relevant for start-up and early-stage entrepreneurs. At this course, there are two major questions:\n\n1.  **Marketing Question:** What and how am I selling to whom?\n2.  **New Venture Question:** How do I best leverage my limited marketing recourses?\n\nSpecifically, this course is designed to give students a broad and deep understanding of such topics as:\n\n1.  What are major strategic constraints and issues confronted by entrepreneurs today?\n2.  How can one identify and evaluate marketing opportunities?\n3.  How do entrepreneurs achieve competitive advantages given limited marketing resources?\n4.  What major marketing/sales tools are most useful in an entrepreneurial setting?\n\nBecause there is no universal marketing solution applicable to all entrepreneurial ventures, this course is designed to help students develop a flexible way of thinking about marketing problems in general.\n",
+                    "full_description": null,
+                    "last_modified": "2023-12-06T15:35:01Z",
+                    "published": true,
+                    "languages": null,
+                    "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002",
+                    "level": "Graduate",
+                    "slug": "courses/15-835-entrepreneurial-marketing-spring-2002",
+                    "availability": "Current",
+                    "semester": "Spring",
+                    "year": 2002,
+                    "start_date": null,
+                    "end_date": null,
+                    "enrollment_start": null,
+                    "enrollment_end": null,
+                    "prices": null,
+                    "checksum": null
+                }
+            ],
+            "image": {
+                "id": 3426,
+                "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002/6efc1711d37e8e136ae578131f10f11a_15-835s02.jpg",
+                "description": "Major themes of entrepreneurial marketing. (Diagram by Prof. Jin Gyo Kim.)",
+                "alt": "An illustration containing the central themes and questions of entrepreneurial ventures and marketing."
+            },
+            "learning_path_parents": [],
+            "user_list_parents": [],
+            "resource_type": "course",
+            "course": {
+                "course_numbers": [
+                    {
+                        "value": "15.835",
+                        "department": {
+                            "department_id": "15",
+                            "name": "Sloan School of Management"
+                        },
+                        "listing_type": "primary"
+                    }
+                ]
+            },
+            "readable_id": "15.835+spring_2002",
+            "title": "Entrepreneurial Marketing",
+            "description": "This course clarifies key marketing concepts, methods, and strategic issues relevant for start-up and early-stage entrepreneurs. At this course, there are two major questions:\n\n1.  **Marketing Question:** What and how am I selling to whom?\n2.  **New Venture Question:** How do I best leverage my limited marketing recourses?\n\nSpecifically, this course is designed to give students a broad and deep understanding of such topics as:\n\n1.  What are major strategic constraints and issues confronted by entrepreneurs today?\n2.  How can one identify and evaluate marketing opportunities?\n3.  How do entrepreneurs achieve competitive advantages given limited marketing resources?\n4.  What major marketing/sales tools are most useful in an entrepreneurial setting?\n\nBecause there is no universal marketing solution applicable to all entrepreneurial ventures, this course is designed to help students develop a flexible way of thinking about marketing problems in general.\n",
+            "full_description": null,
+            "last_modified": "2023-12-06T15:35:01Z",
+            "published": true,
+            "languages": null,
+            "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002",
+            "professional": false
+        }
+]

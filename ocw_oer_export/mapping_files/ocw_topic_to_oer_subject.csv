@@ -1,0 +1,329 @@
+OCW Topic,OER Subject,OER Keyword
+Business,Business and Communication,
+Accounting,Accounting,
+Business Ethics,Business Ethicates,
+Entrepreneurship,Business and Communication,Entrepreneurship
+Finance,Finance,
+Globalization,Business and Communication,Globalization
+Health Care Management,"Management|Health, Medicine and Nursing",Health Care Management
+Industrial Relations and Human Resource Management,Management|Public Relations,Industrial Relations|Human Resource Management
+Information Technology,Business and Communication,Information Technology
+Innovation,Business and Communication,Innovation
+Leadership,Management,Leadership
+Management,Management,
+Marketing,Marketing,
+Operations Management,Management,Operations Management
+Organizational Behavior,Business and Communication,Organizational Behavior
+Real Estate,Business and Communication,Real Estate
+Supply Chain Management,Management,Supply Chain Management
+Energy,Environmental Studies|Environmental Science,Energy
+Buildings,Environmental Studies,Buildings
+Climate,Environmental Studies|Environmental Science,Climate
+Combustion,Environmental Studies|Environmental Science,Combustion
+Electricity,Environmental Studies|Environmental Science,Electricity
+Fossil Fuels,Environmental Studies|Environmental Science,Fossil Fuels
+Fuel Cells,Environmental Studies|Environmental Science,Fuel Cells
+Hydrogen and Alternatives,Environmental Studies|Environmental Science,Hydrogen and Alternatives
+Nuclear,Environmental Studies|Environmental Science,Nuclear
+Renewables,Environmental Studies|Environmental Science,Renewable Energy
+Technology,Environmental Studies|Environmental Science,Energy Technology
+Transportation,Environmental Studies,Transportation
+Engineering,Engineering,
+Aerospace Engineering,Engineering,Aerospace Engineering
+Aerodynamics,Engineering,Aerodynamics
+Astrodynamics,Engineering|Astronomy,Astrodynamics
+Avionics,Engineering,Avionics
+Bioastronautics,Engineering|Astronomy,Bioastronautics
+Guidance and Control Systems,Engineering,Guidance and Control Systems
+Materials Selection,Engineering,Materials Selection
+Propulsion Systems,Engineering,Propulsion Systems
+Structural Mechanics,Engineering,Structural Mechanics
+Biological Engineering,Engineering|Biology,Biological Engineering
+Biomechanics,Engineering|Biology,Biomechanics
+Biostatistics,Engineering|Biology,Biostatistics
+Biotechnology,Engineering|Biology,Biotechnology
+Cell and Tissue Engineering,Engineering|Biology,Cell Engineering|Tissue Engineering
+Computational Biology,Engineering|Biology,Computational Biology
+Synthetic Biology,Engineering|Biology,Synthetic Biology
+Chemical Engineering,Engineering|Chemistry,Chemical Engineering
+Molecular Engineering,Engineering|Chemistry,Molecular Engineering
+Polymers,Engineering|Chemistry,Polymers
+Process Control Systems,Engineering|Chemistry,Process Control Systems
+Separation Processes,Engineering|Chemistry,Separation Processes
+Transport Processes,Engineering|Chemistry,Transport Processes
+Civil Engineering,Engineering,Civil Engineering
+Construction Management,Engineering|Management,Construction Management
+Geotechnical Engineering,Engineering,Geotechnical Engineering
+Structural Engineering,Engineering,Structural Engineering
+Surveying,Engineering,Surveying
+Transportation Engineering,Engineering,Transportation Engineering
+Computer Science,Computer Science,
+Algorithms and Data Structures,Computer Science,Algorithms|Data Structures
+Artificial Intelligence,Computer Science,Artificial Intelligence
+Computer Design and Engineering,Computer Science,Computer Design| Computer Engineering
+Computer Networks,Computer Science,Computer Networks
+Cryptography,Computer Science,Cryptography
+Data Mining,Computer Science,Data Mining
+Graphics and Visualization,Computer Science,Graphics|Visualization
+Human-Computer Interfaces,Computer Science,Human-Computer Interfaces
+Operating Systems,Computer Science,Operating Systems
+Programming Languages,Computer Science,Programming Languages
+Software Design and Engineering,Computer Science,Software Design|Software Engineering
+Theory of Computation,Computer Science,Theory of Computation
+Electrical Engineering,Engineering|Electronic Technology,Electrical Engineering
+Digital Systems,Engineering|Electronic Technology,Digital Systems
+Electric Power,Engineering|Electronic Technology,Electric Power
+Electronics,Engineering|Electronic Technology,Electronics
+Robotics and Control Systems,Engineering|Electronic Technology,Robotics and Control Systems
+Signal Processing,Engineering|Electronic Technology,Signal Processing
+Telecommunications,Engineering|Electronic Technology,Telecommunications
+Environmental Engineering,Engineering|Environmental Science,Environmental Engineering
+Aquatic Sciences and Water Quality Control,Engineering|Environmental Science,Aquatic Sciences|Water Quality Control
+Environmental Management,Engineering|Environmental Science,Environmental Management
+Hydrodynamics and Coastal Engineering,Engineering|Environmental Science,Hydrodynamics|Coastal Engineering
+Hydrology and Water Resource Systems,Engineering|Environmental Science|Hydrology,Water Resource Systems
+Materials Science and Engineering,Engineering,Materials Science and Engienering
+Composite Materials,Engineering,Composite Materials
+Electronic Materials,Engineering,Electronic Materials
+Metallurgical Engineering,Engineering,Metallurgical Engineering
+Polymeric Materials,Engineering,Polymeric Materials
+Mechanical Engineering,Engineering,Mechanical Engineering
+Dynamics and Control,Engineering,Dynamics and Control
+Fluid Mechanics,Engineering,Fluid Mechanics
+Mechanical Design,Engineering,Mechanical Design
+Microtechnology,Engineering,Microtechnology
+Solid Mechanics,Engineering,Solid Mechanics
+Nanotechnology,Engineering,Nanotechnology
+Nuclear Engineering,Engineering|Environmental Science,Nuclear Engineering
+Nuclear Materials,Engineering|Environmental Science,Nuclear Materials
+"Nuclear Systems, Policy, and Economics",Engineering|Economics|Political Science,Nuclear Systems|Nuclear Policy|Nuclear Economics
+Radiological Engineering,Engineering|Environmental Science,Radiological Engineering
+Ocean Engineering,Engineering|Oceanography,Ocean Engineering
+Hydrodynamics,Engineering|Oceanography,Hydrodynamics
+Ocean Exploration,Engineering|Oceanography,Ocean Exploration
+Ocean Structures,Engineering|Oceanography,Ocean Structures
+Oceanic Pollution Control,Engineering|Oceanography,Oceanic Pollution Control
+Systems Engineering,Engineering,Systems Engineering
+Computational Modeling and Simulation,Engineering|Mathematics,Computational Modeling|Computational Simulation
+Computational Science and Engineering,Engineering|Computer Science,Computational Science|Computational Engineering
+Numerical Simulation,Engineering|Mathematics,Numerical Simulation
+Systems Design,Engineering,Systems Design
+Systems Optimization,Engineering,Systems Optimization
+Fine Arts,Arts and Humanities,Fine Arts
+Architecture,Architecture and Design,
+Architectural Design,Architecture and Design,
+Architectural Engineering,Architecture and Design,Architectural Engineering
+Architectural History and Criticism,Architecture and Design,Architectural History| Architectural Criticism
+Environmental Design,Architecture and Design,Environmental Design
+Religious Architecture,Architecture and Design,Religious Architecture
+Art History,Art History,
+Game Design,Graphic Arts,Game Design
+Media Studies,Graphic Arts,Media Studies
+Digital Media,Graphic Arts|Graphic Design,Digital Media
+Music,Performing Arts,Music
+Music History,Performing Arts,Music History
+Music Performance,Performing Arts,Music Performance
+Music Theory,Performing Arts,Music Theory
+Performance Arts,Performing Arts,
+Dance,Performing Arts,Dance
+Theater,Performing Arts,Theater
+Theatrical Design,Performing Arts,Theatrical Design
+Visual Arts,Visual Arts,
+Film and Video,Visual Arts|Film and Music Production,Film and Video
+Graphic Design,Visual Arts|Graphic Arts,Graphic Design
+Photography,Visual Arts,Photography
+Health and Medicine,"Health, Medicine and Nursing",
+Anatomy and Physiology,"Health, Medicine and Nursing|Anatomy/Physiology",
+Biomedical Enterprise,"Health, Medicine and Nursing",Biomedical Enterprise
+Biomedical Instrumentation,"Health, Medicine and Nursing",Biomedical Instrumentation
+Biomedical Signal and Image Processing,"Health, Medicine and Nursing",Biomedical Signal Processing| Biomedical Image Processing
+Biomedicine,"Health, Medicine and Nursing",Biomedicine
+Cancer,"Health, Medicine and Nursing",Cancer
+Cellular and Molecular Medicine,"Health, Medicine and Nursing",Cellular Medicine| Molecular Medicine
+Epidemiology,"Health, Medicine and Nursing",Epidemiology
+Functional Genomics,"Health, Medicine and Nursing",Functional Genomics
+Health and Exercise Science,"Health, Medicine and Nursing",Health and Exercise Science
+Immunology,"Health, Medicine and Nursing",Immunology
+Medical Imaging,"Health, Medicine and Nursing",Medical Imaging
+Mental Health,"Health, Medicine and Nursing",Mental Health
+Pathology and Pathophysiology,"Health, Medicine and Nursing",Pathology| Pathophysiology
+Pharmacology and Toxicology,"Health, Medicine and Nursing",Pharmacology|Toxicology
+Physical Education and Recreation,"Health, Medicine and Nursing",Physical Education and Recreation
+Public Health,"Health, Medicine and Nursing",Public Health
+Sensory-Neural Systems,"Health, Medicine and Nursing",Sensory-Neural Systems
+Social Medicine,"Health, Medicine and Nursing",Social Medicine
+Spectroscopy,"Health, Medicine and Nursing",Spectroscopy
+Speech Pathology,"Health, Medicine and Nursing",Speech Pathology
+Humanities,Arts and Humanities,
+History,History,
+African History,World History,African History
+American History,U.S. History,
+Ancient History,Ancient History,
+Asian History,World History,Asian History
+Comparative History,History,Comparative History
+European History,World History,European History
+Historical Methods,History,Historical Methods
+Historiography,History,Historiography
+History of Science and Technology,History,History of Science|History of Technology
+Intellectual History,History,Intellectual History
+Jewish History,World History,Jewish History
+Latin American History,World History,Latin American History
+Medieval History,Ancient History,Medieval History
+Middle Eastern History,World History,Middle Eastern History
+Military History,History,Military History
+Modern History,History,Modern History
+World History,World History,
+Language,Languages,
+Chinese,Languages,Chinese
+English as a Second Language,Language Education (ESL),
+French,Languages,French
+German,Languages,German
+Japanese,Languages,Japanese
+Portuguese,Languages,Portuguese
+Spanish,Languages,Spanish
+Linguistics,Linguistics,
+Phonology,Linguistics,Phonology
+Semantics,Linguistics,Semantics
+Syntax,Linguistics,Syntax
+Literature,Literature,
+Academic Writing,Literature,Academic Writing
+American Literature,Literature|Reading Literature,American Literature
+Biography,Literature|Reading Literature,Biography
+Classics,Literature|Reading Literature,Classics
+Comedy,Literature|Reading Literature,Comedy
+Comparative Literature,Literature|Reading Literature,Comparative Literature
+Creative Writing,Literature|Composition and Rehtoric,Creative Writing
+Criticism,Literature,Criticism
+Drama,Literature|Reading Literature,Drama
+Fiction,Literature|Reading Literature,Fiction
+International Literature,Literature|Reading Literature,International Literature
+Nonfiction Prose *Periodic Literature,Literature|Reading Literature,Nonfiction Prose
+Poetry,Literature|Reading Literature,Poetry
+Rhetoric,Literature|Composition and Rehtoric,
+Technical Writing,Literature|Composition and Rehtoric,Technical Writing
+Philosophy,Philosophy,
+Epistemology,Philosophy,Epistemology
+Ethics,Philosophy,Ethics
+Logic,Philosophy,Logic
+Metaphysics,Philosophy,Metaphysics
+Philosophy of Language,Philosophy,Philosophy of Language
+Political Philosophy,Philosophy,Political Philosophy
+Religion,Religious Studies,
+Mathematics,Mathematics,
+Algebra and Number Theory,Algebra,Number Theory
+Applied Mathematics,Mathematics,Applied Mathematics
+Calculus,Calculus,
+Computation,Mathematics,Computation
+Differential Equations,Mathematics,Differential Equations
+Linear Algebra,Algebra,Linear Algebra
+Mathematical Analysis,Mathematics,Mathematical Analysis
+Mathematical Logic,Mathematics,Mathematical Logic
+Probability and Statistics,Statistics and Probability,
+Topology and Geometry,Geometry,Topology
+Science,Physical Science,
+Biology,Biology,
+Biochemistry,Biology,Biochemistry
+Biophysics,Biology,Biophysics
+Cell Biology,Biology,Cell biology
+Computation and Systems Biology,Biology,Computation and Systems Biology
+Developmental Biology,Biology,Developmental Biology
+Ecology,Ecology,
+Genetics,Genetics,
+Microbiology,Biology,Microbiology
+Molecular Biology,Biology,Molecular Biology
+Neurobiology,Biology,Neurobiology
+Neuroscience,Biology,Neuroscience
+Proteomics,Biology,Proteomics
+Stem Cells,Biology,Stem Cells
+Structural Biology,Biology,Structural Biology
+Virology,Biology,Virology
+Chemistry,Chemistry,
+Analytical Chemistry,Chemistry,Analytical Chemistry
+Inorganic Chemistry,Chemistry,Inorganic Chemistry
+Organic Chemistry,Chemistry,Organic Chemistry
+Physical Chemistry,Chemistry,Physical Chemistry
+Cognitive Science,Life Science,Cognitive Science
+Earth Science,Physical Science|Atmospheric Science,Earth Science
+Atmospheric Science,Atmospheric Science,
+Climate Studies,Physical Science,Climate Studies
+Environmental Science,Environmental Science,
+Geobiology,Physical Science,Geobiology
+Geochemistry,Physical Science,Geochemistry
+Geology,Physical Geology,
+Geophysics,Physical Science,Geophysics
+Oceanography,Oceanography,
+Planetary Science,Physical Science|Atmospheric Science,Planetary Science
+Sustainability,Physical Science,Sustainability
+Physics,Physics,
+Astrophysics,Physics,Astrophysics
+"Atomic, Molecular, Optical Physics",Physics,Atomic Physics|Molecular Physics|Optical Physics
+Classical Mechanics,Physics,Classical Mechanics
+Condensed Matter Physics,Physics,Condensed Matter Physics
+Electromagnetism,Physics,Electromagnetism
+High Energy Physics,Physics,High Energy Physics
+Nuclear Physics,Physics,Nuclear Physics
+Particle Physics,Physics,Particle Physics
+Quantum Mechanics,Physics,Quantum Mechanics
+Relativity,Physics,Relativity
+Theoretical Physics,Physics,Theoretical Physics
+Thermodynamics,Physics,Thermodynamics
+Social Science,Social Science,
+Anthropology,Anthropology,
+Biological Anthropology,Anthropology,Biological Anthropology
+Cultural Anthropology,Anthropology,Cultural Anthropology
+Ethnography,Anthropology,Ethnography
+Social Anthropology,Anthropology,Social Anthropology
+Archaeology,Archaeology,
+Communication,Communication,
+Economics,Economics,
+Developmental Economics,Economics,Developmental Economics
+Econometrics,Economics,Econometrics
+Financial Economics,Economics,Financial Economics
+Industrial Organization,Economics,Industrial Organization
+International Development,Economics,International Development
+International Economics,Economics,International Economics
+Labor Economics,Economics,Labor Economics
+Macroeconomics,Economics,Macroeconomics
+Microeconomics,Economics,Microeconomics
+Political Economy,Economics|Political Science,Political Economy
+Public Economics,Economics,Public Economics
+Game Theory,Mathematics|Information Science|Computer Science,Game Theory
+Geography,Physical Geography,
+Legal Studies,Law,Legal Studies
+Political Science,Political Science,
+American Politics,Political Science,American Politics|U.S. Politics
+Comparative Politics,Political Science,Comparative Politics
+International Relations,Political Science,International Relations
+Psychology,Psychology,
+Public Administration,Political Science,Public Administration
+Environmental Policy,Political Science|Environmental Studies,Environmental Policy
+Military Studies,Political Science,Military Studies
+Public Policy,Political Science,Public Policy
+Regional Politics,Political Science,Regional Politics
+Science and Technology Policy,Political Science,Science and Technology Policy
+Security Studies,Political Science,Security Studies
+Social Welfare,Political Science,Social Welfare
+Sociology,Sociology,
+Community Development,Sociology,Community Development
+Social Justice,Sociology,Social Justics
+Urban Studies,Social Science,Urban Studies
+Housing Development,Social Science,Housing Development
+Regional Planning,Social Science,Regional Planning
+Transportation Planning,Social Science,Transportation Planning
+Urban Planning,Social Science,Urban Planning
+Society,Social Science,
+African-American Studies,Ethnic Studies,African-American Studies
+Asian Studies,World Cultures,Asian Studies
+European and Russian Studies,World Cultures,European and Russian Studies
+Gender Studies,Social Science|Women’s Studies,Gender Studies
+Global Poverty,Cultural Geography,Global Poverty
+Indigenous Studies,Ethnic Studies|Cultural Geography,Indigenous Studies
+Latin and Caribbean Studies,World Cultures,Latin and Caribbean Studies
+Middle Eastern Studies,World Cultures,Middle Eastern Studies
+The Developing World,Cultural Geography,Developing World
+Women’s Studies,Women’s Studies,
+Teaching and Education,Education,Teaching
+Curriculum and Teaching,Education,Curriculum|Teaching
+Education Policy,Education,Education Policy
+Educational Technology,Educational Technology,
+Higher Education,Higher Education,
