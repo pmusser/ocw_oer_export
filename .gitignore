@@ -162,6 +162,5 @@ cython_debug/
 # DS_Store
 .DS_Store
 
-# OER Export JSON and CSV files created
-ocw_api_data.json
-ocw_oer_export.csv
+# Private directory containing output directory
+private/

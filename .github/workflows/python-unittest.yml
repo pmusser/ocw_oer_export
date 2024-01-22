@@ -1,0 +1,33 @@
+---
+name: Backend Unit Tests
+on:
+    push:
+        branches:
+        - main
+    pull_request:
+jobs:
+  python-unittests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        version: 1.5.1
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+        cache: "poetry"
+
+    - name: Set up Poetry Path
+      run: echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+    - name: Install dependencies
+      run: poetry install --no-interaction
+
+    - name: Run unittests
+      run: poetry run python -m unittest discover -s tests

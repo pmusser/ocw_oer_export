@@ -19,7 +19,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes"
             ],
             "departments": [
@@ -139,7 +139,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Problem Sets with Solutions",
                 "Exams with Solutions"
@@ -267,7 +267,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Written Assignments"
             ],
             "departments": [
@@ -379,7 +379,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Written Assignments",
                 "Presentation Assignments"
             ],
@@ -494,7 +494,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Problem Sets with Solutions",
                 "Exams with Solutions"
@@ -596,7 +596,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Exams"
             ],
@@ -707,7 +707,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Written Assignments",
                 "Problem Sets"
@@ -853,7 +853,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Written Assignments with Examples",
                 "Instructor Insights"
             ],
@@ -958,7 +958,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Problem Sets"
             ],
@@ -1063,7 +1063,7 @@
                 "code": "ocw",
                 "name": "OCW"
             },
-            "resource_content_tags": [
+            "course_feature": [
                 "Lecture Notes",
                 "Written Assignments with Examples"
             ],

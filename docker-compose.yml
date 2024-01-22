@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: ocw_oer_export
+    entrypoint: ["python", "-m", "ocw_oer_export.cli"]
+    command: ["--create_csv"]
+    tty: true
+    volumes:
+      - ./private/output:/private/output

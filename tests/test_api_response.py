@@ -26,5 +26,5 @@ class APITestCase(unittest.TestCase):
         self.assertIn("url", item)
         self.assertIn("description", item)
         self.assertIn("topics", item)
-        self.assertIn("resource_content_tags", item)
+        self.assertIn("course_feature", item)
         self.assertIn("instructors", item["runs"][0])

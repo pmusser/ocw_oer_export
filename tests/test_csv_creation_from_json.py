@@ -21,7 +21,7 @@ class CSVCreationTestCase(unittest.TestCase):
         create_csv(
             source="json",
             input_file=self.sample_json_path,
-            output_file=self.generated_csv_path,
+            output_path=self.generated_csv_path,
         )
         generated_csv_data = extract_data_from_file(self.generated_csv_path)
         expected_csv_data = extract_data_from_file(self.expected_csv_path)

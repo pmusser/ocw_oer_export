@@ -12,59 +12,37 @@ This demonstration project showcases how to utilize the MIT Open API. It specifi
 
 ## Initial Setup & Usage
 
-The _ocw_oer_export_ package is available [on PyPI](link). To install:
+1. Build the container:
 
 ```
-pip install ocw_oer_export
+docker compose build
 ```
 
-### Usage as a Python Package
-
-To use `ocw_oer_export` in your Python code:
+2. Start the container:
 
 ```
-from ocw_oer_export import create_csv
-create_csv()
+docker compose run --rm app
 ```
 
-By default, the `create_csv` function uses `source="api"` and `output_file="ocw_oer_export.csv"`. The `source` parameter can be altered to `source="json"` if a local JSON file of courses' metadata is available. To generate the JSON file:
+To generate a JSON file containing complete API data:
 
 ```
-from ocw_oer_export import create_json
-create_json()
-```
-
-Then, create the CSV from the JSON file:
-
-```
-create_csv(source="json")
-```
-
-### CLI Usage
-
-`ocw_oer_export` also provides a Command Line Interface (CLI). After installation, you can use the following commands:
-
-To create the CSV file:
-
-```
-ocw-oer-export --create_csv
-```
-
-To generate a JSON file:
-
-```
-ocw-oer-export --create_json
+docker compose run --rm app --create_json
 ```
 
 To create a CSV file from the local JSON file:
 
 ```
-ocw-oer-export --create_csv --source=json
+docker compose run --rm app --create_csv --source=json
 ```
 
 ## File Output Directory
 
-When using either the Python package or the CLI, the output files (CSV or JSON) are saved in the current working directory from which it is executed.
+The output files, whether in CSV or JSON format, are stored within the `private/output` directory relative to the current working directory from which the command is executed.
+
+Therefore, the above commands will generate `private/output/ocw_oer_export.csv` or `private/output/ocw_api_data.json` in the current working directory.
+
+If you want to change this, you will not only have to change the `output_path` in the function (`create_csv` or `create_json`) but also have to change the mapping in `docker-compose.yml`.
 
 ## Requirements
 
@@ -79,7 +57,7 @@ Additionally, the `mapping_files` should be up-to-date. If new topics are added 
 To run unit tests:
 
 ```
-python -m unittest discover
+docker run --rm ocw_oer_export python -m unittest discover -s tests
 ```
 
 ## Committing & Formatting

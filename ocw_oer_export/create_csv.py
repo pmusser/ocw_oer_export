@@ -129,8 +129,8 @@ def transform_single_course(course, ocw_topics_mapping):
         "CR_PROVIDER_SET": "MIT OpenCourseWare",
         "CR_COU_URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
         "CR_COU_COPYRIGHT_HOLDER": "MIT",
-        "CR_EDUCATIONAL_USE": get_cr_educational_use(course["resource_content_tags"]),
-        "CR_ACCESSIBILITY": get_cr_accessibility(course["resource_content_tags"]),
+        "CR_EDUCATIONAL_USE": get_cr_educational_use(course["course_feature"]),
+        "CR_ACCESSIBILITY": get_cr_accessibility(course["course_feature"]),
     }
 
 
@@ -146,9 +146,14 @@ def transform_data(data, ocw_topics_mapping):
 
 
 def create_csv(
-    source="api", input_file="ocw_api_data.json", output_file="ocw_oer_export.csv"
+    source="api",
+    input_file="/private/output/ocw_api_data.json",
+    output_path="/private/output/ocw_oer_export.csv",
 ):
-    """Create a CSV file from either the MIT OpenCourseWare API or a locally stored JSON file."""
+    """
+    Create a CSV file from either the MIT OpenCourseWare API or a locally stored JSON file.
+    output_path: The output path inside the docker container.
+    """
     api_data_json = {}
 
     if source == "api":
@@ -182,14 +187,11 @@ def create_csv(
         "CR_EDUCATIONAL_USE",
         "CR_ACCESSIBILITY",
     ]
-    with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
+    with open(output_path, "w", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(transformed_data)
-
-        current_dir = os.getcwd()
         logging.info(
-            "CSV file '%s' successfully created at directory: %s",
-            output_file,
-            current_dir,
+            "CSV file '%s' successfully created.",
+            output_path,
         )
