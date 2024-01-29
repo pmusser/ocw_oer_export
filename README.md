@@ -50,7 +50,7 @@ For successful execution and correct output, ensure the [MIT Open's API](https:/
 
 `title`, `url`, `description`, `topics`, `course_feature`, `runs: instructors`
 
-Additionally, the `mapping_files` should be up-to-date. If new topics are added in OCW without corresponding mappings in `ocw_oer_export/mapping_files/ocw_topic_to_oer_subject.csv`, this will lead to `null` entries for those topics in the CSV (`CR_SUBJECT`).
+Additionally, the `mapping_files` should be up-to-date. If new topics are added in OCW without corresponding mappings in `ocw_oer_export/mapping_files/ocw_topic_to_oer_subject.csv`, this will lead to `null` entries for those topics in the CSV (`CR_SUBJECT`). In addition to that, make sure `fm_keywords_exports.csv` is also present.
 
 ## Tests
 

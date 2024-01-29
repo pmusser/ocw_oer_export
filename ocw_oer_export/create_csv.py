@@ -9,7 +9,31 @@ import logging
 from .client import extract_data_from_api
 from .data_handler import extract_data_from_json
 from .constants import API_URL
-from .utilities import text_cleanup
+from .utilities import normalize_course_url, normalize_keywords, text_cleanup
+
+
+def create_fm_ocw_course_url_to_keywords_mapping(path=None, file_name=None):
+    """
+    Creates a mapping from OCW course URLs to their associated keywords using FM export data.
+
+    This function reads a CSV file and extracts the mapping between course URLs and their keywords.
+    """
+    if path is None:
+        path = os.path.dirname(__file__)
+
+    if file_name is None:
+        file_name = "mapping_files/fm_keywords_export.csv"
+
+    file_path = os.path.join(path, file_name)
+    course_map = {}
+
+    with open(file_path, newline="", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row["zze_courseURL"]:
+                course_url = normalize_course_url(row["zze_courseURL"])
+                course_map[course_url] = row["zzd_keywords"]
+    return course_map
 
 
 def create_ocw_topic_to_oer_subject_mapping(path=None, file_name=None):
@@ -52,8 +76,16 @@ def get_cr_subjects(ocw_topics_mapping, ocw_course_topics):
     return "|".join(sorted_unique_oer_subjects)
 
 
-def get_cr_keywords(list_of_topics_objs):
-    """Get OER formatted Course Resource Keywords from a list of OCW topic objects."""
+def get_cr_keywords(fm_ocw_keywords_mapping, list_of_topics_objs, course_url):
+    """
+    Get OER formatted Course Resource keywords for a given OCW course.
+
+    It checks for course's keywords in FM export mapping (fm_ocw_keywords_mapping).
+    If no keywords are found there, it uses OCW course's topics as keywords.
+    """
+    keywords = fm_ocw_keywords_mapping.get(course_url)
+    if keywords:
+        return normalize_keywords(keywords)
     return "|".join(topic["name"] for topic in list_of_topics_objs)
 
 
@@ -110,21 +142,24 @@ def get_description_in_plain_text(description):
     return cleaned_description
 
 
-def transform_single_course(course, ocw_topics_mapping):
+def transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping):
     """Transform a single course according to OER template."""
+    course_runs = course["runs"][0]
     return {
         "CR_TITLE": course["title"],
-        "CR_URL": course["runs"][0]["url"],
+        "CR_URL": course_runs["url"],
         "CR_MATERIAL_TYPE": "Full Course",
         "CR_Media_Formats": "Text/HTML",
         "CR_SUBLEVEL": "null",
-        "CR_ABSTRACT": get_description_in_plain_text(course["runs"][0]["description"]),
+        "CR_ABSTRACT": get_description_in_plain_text(course_runs["description"]),
         "CR_LANGUAGE": "en",
         "CR_COU_TITLE": "Creative Commons Attribution Non Commercial Share Alike 4.0",
         "CR_PRIMARY_USER": "student|teacher",
         "CR_SUBJECT": get_cr_subjects(ocw_topics_mapping, course["topics"]),
-        "CR_KEYWORDS": get_cr_keywords(course["topics"]),
-        "CR_AUTHOR_NAME": get_cr_authors(course["runs"][0]["instructors"]),
+        "CR_KEYWORDS": get_cr_keywords(
+            fm_ocw_keywords_mapping, course["topics"], course_runs["url"]
+        ),
+        "CR_AUTHOR_NAME": get_cr_authors(course_runs["instructors"]),
         "CR_PROVIDER": "MIT",
         "CR_PROVIDER_SET": "MIT OpenCourseWare",
         "CR_COU_URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
@@ -134,12 +169,16 @@ def transform_single_course(course, ocw_topics_mapping):
     }
 
 
-def transform_data(data, ocw_topics_mapping):
+def transform_data(data):
     """Transform all courses into OER template."""
+    fm_ocw_keywords_mapping = create_fm_ocw_course_url_to_keywords_mapping()
+    ocw_topics_mapping = create_ocw_topic_to_oer_subject_mapping()
+
     return [
         course
         for course in (
-            transform_single_course(course, ocw_topics_mapping) for course in data
+            transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping)
+            for course in data
         )
         if course is not None
     ]
@@ -165,8 +204,7 @@ def create_csv(
     else:
         raise ValueError("Invalid source. Use 'api' or 'json'.")
 
-    ocw_topics_mapping = create_ocw_topic_to_oer_subject_mapping()
-    transformed_data = transform_data(api_data_json, ocw_topics_mapping)
+    transformed_data = transform_data(api_data_json)
     fieldnames = [
         "CR_TITLE",
         "CR_URL",
