@@ -1,0 +1,93 @@
+name: Weekly CSV File Generation and Release
+on:
+  push:
+      branches:
+      - main
+  schedule:
+      - cron: '0 10 * * 1' # Every Monday at 10AM
+
+jobs:
+  generate_and_release_csv:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+
+        - name: Install Poetry
+          uses: snok/install-poetry@v1
+          with:
+            version: 1.5.1
+            virtualenvs-create: true
+            virtualenvs-in-project: true
+
+        - name: Set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: "3.9"
+            cache: "poetry"
+
+        - name: Set up Poetry Path
+          run: echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+        - name: Install dependencies
+          run: poetry install --no-interaction
+
+        - name: Create CSV
+          run: poetry run python -m ocw_oer_export.cli --create_csv --output_path="./private/output/ocw_oer_export.csv"
+
+        - name: Slack Notification
+          if: failure()
+          uses: rtCamp/action-slack-notify@v2
+          env:
+            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+            SLACK_COLOR: '#870000'
+            SLACK_MESSAGE: 'Error in creating CSV file. Please refer to the Actions URL to see logs.'
+            SLACK_MSG_AUTHOR: 'mitodl/ocw_oer_export'
+
+        - name: Generate Version Number
+          run: |
+            git fetch --tags
+            LATEST_TAG=$(git tag | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+-csv$' | sort -V | tail -n1)
+            # If no tags exist, start with v1.0.0-csv
+            if [ -z "$LATEST_TAG" ]
+            then
+              LATEST_TAG="v1.0.0-csv"
+            fi
+            BASE_TAG=${LATEST_TAG#v} # Remove the leading 'v'
+            BASE_TAG=${BASE_TAG%-csv} # Remove the trailing '-csv'
+            IFS='.' read -a TAG_PARTS <<< "$BASE_TAG"
+            TAG_PARTS[2]=$((TAG_PARTS[2]+1)) # Increment the patch number
+            NEW_TAG="v${TAG_PARTS[0]}.${TAG_PARTS[1]}.${TAG_PARTS[2]}-csv"
+            echo "TAG_NAME=$NEW_TAG" >> $GITHUB_ENV
+
+        - name: Format Release Date for Release Title
+          run: |
+            DaySuffix() {
+              case `date +%d` in
+                1|21|31) echo "st";;
+                2|22)    echo "nd";;
+                3|23)    echo "rd";;
+                *)       echo "th";;
+              esac
+            }
+            TZ="US/Eastern"
+            TODAY=$(date +"%A, %B %-d"$(DaySuffix)", %Y")
+            echo "RELEASE_TITLE=${TODAY}" >> $GITHUB_ENV
+
+        - name: Create Release with Timestamp
+          run:
+            |
+            echo "Creating release: $TAG_NAME"
+            gh release create "${{ env.TAG_NAME }}" ./private/output/ocw_oer_export.csv -p -t "${{ env.RELEASE_TITLE }}" -n "This release was created for CSV weekly output. Please get the CSV file from the Assets listed below."
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Update 'Latest' Release
+          run: |
+            LATEST_RELEASE_NAME="latest"
+            if gh release view $LATEST_RELEASE_NAME
+            then
+                gh release delete $LATEST_RELEASE_NAME
+            fi
+            gh release create $LATEST_RELEASE_NAME ./private/output/ocw_oer_export.csv -t "Latest Release" -n "This release was created for CSV weekly output. This release contains the most recent CSV. Please get the CSV file from the Assets listed below." --latest
+          env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

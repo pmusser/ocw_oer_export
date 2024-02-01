@@ -23,11 +23,22 @@ def main():
         default="api",
         help="Specify data source for CSV creation (default: api)",
     )
-
+    parser.add_argument(
+        "--input_path",
+        default="/private/output/ocw_api_data.json",
+        help="Output path for the CSV file",
+    )
+    parser.add_argument(
+        "--output_path",
+        default="/private/output/ocw_oer_export.csv",
+        help="Output path for the CSV file",
+    )
     args = parser.parse_args()
 
     if args.create_csv:
-        create_csv(source=args.source)
+        create_csv(
+            source=args.source, input_path=args.input_path, output_path=args.output_path
+        )
     elif args.create_json:
         create_json()
     else:

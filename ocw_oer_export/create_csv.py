@@ -186,7 +186,7 @@ def transform_data(data):
 
 def create_csv(
     source="api",
-    input_file="/private/output/ocw_api_data.json",
+    input_path="/private/output/ocw_api_data.json",
     output_path="/private/output/ocw_oer_export.csv",
 ):
     """
@@ -199,7 +199,7 @@ def create_csv(
         api_data_json = extract_data_from_api(api_url=API_URL)
 
     elif source == "json":
-        api_data_json = extract_data_from_json(input_file)
+        api_data_json = extract_data_from_json(input_path)
 
     else:
         raise ValueError("Invalid source. Use 'api' or 'json'.")
