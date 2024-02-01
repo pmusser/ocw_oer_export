@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   app:
@@ -8,4 +8,4 @@ services:
     command: ["--create_csv"]
     tty: true
     volumes:
-      - ./private/output:/private/output
+      - .:/src
