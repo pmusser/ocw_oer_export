@@ -1,1147 +1,1340 @@
 [
-        {
-            "id": 3584,
-            "topics": [
-                {
-                    "id": 32,
-                    "name": "Engineering"
-                },
-                {
-                    "id": 42,
-                    "name": "Electrical Engineering"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
+    {
+        "id": 3659,
+        "topics": [
+            {
+                "id": 39,
+                "name": "Philosophy"
             },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
+            {
+                "id": 82,
+                "name": "Political Philosophy"
             },
-            "course_feature": [
-                "Lecture Notes"
-            ],
-            "departments": [
-                {
-                    "department_id": "6",
-                    "name": "Electrical Engineering and Computer Science"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 2224,
-                    "instructors": [
-                        {
-                            "id": 966,
-                            "first_name": "Gim",
-                            "last_name": "Hom",
-                            "full_name": "Gim Hom"
-                        }
-                    ],
-                    "image": {
-                        "id": 2288,
-                        "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008/fc669b859c6991ac679eeb1a40ac69c5_6-091iap08.jpg",
-                        "description": "In this lecture and lab course, students learn to use electrical instruments including function generators, oscilloscopes, and multimeters. Photograph courtesy of jbgeekdad on Flickr.  (link over \"jbgeekdad\" to http://www.flickr.com/photos/jbgeekdad/1347629139/)",
-                        "alt": "Photograph of a multimeter."
-                    },
-                    "run_id": "8a0c893a1902034ecb6a319233ee0509",
-                    "title": "Hands-On Introduction to Electrical Engineering Lab Skills",
-                    "description": "This course introduces students to both passive and active electronic components (op-amps, 555 timers, TTL digital circuits). Basic analog and digital circuits and theory of operation are covered. The labs allow the students to master the use of electronic instruments and construct and/or solder several circuits. The labs also reinforce the concepts discussed in class with a hands-on approach and allow the students to gain significant experience with electrical instruments such as function generators, digital multimeters, oscilloscopes, logic analyzers and power supplies. In the last lab, the students build an electronic circuit that they can keep. The course is geared to freshmen and others who want an introduction to electronics circuits.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T14:18:49Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
-                    "level": "Undergraduate",
-                    "slug": "courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
-                    "availability": "Current",
-                    "semester": "January IAP",
-                    "year": 2008,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 2288,
-                "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008/fc669b859c6991ac679eeb1a40ac69c5_6-091iap08.jpg",
-                "description": "In this lecture and lab course, students learn to use electrical instruments including function generators, oscilloscopes, and multimeters. Photograph courtesy of jbgeekdad on Flickr.  (link over \"jbgeekdad\" to http://www.flickr.com/photos/jbgeekdad/1347629139/)",
-                "alt": "Photograph of a multimeter."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "6.091",
-                        "department": {
-                            "department_id": "6",
-                            "name": "Electrical Engineering and Computer Science"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
-            },
-            "readable_id": "6.091+january-iap_2008",
-            "title": "Hands-On Introduction to Electrical Engineering Lab Skills",
-            "description": "This course introduces students to both passive and active electronic components (op-amps, 555 timers, TTL digital circuits). Basic analog and digital circuits and theory of operation are covered. The labs allow the students to master the use of electronic instruments and construct and/or solder several circuits. The labs also reinforce the concepts discussed in class with a hands-on approach and allow the students to gain significant experience with electrical instruments such as function generators, digital multimeters, oscilloscopes, logic analyzers and power supplies. In the last lab, the students build an electronic circuit that they can keep. The course is geared to freshmen and others who want an introduction to electronics circuits.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T14:18:49Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008",
-            "professional": false
+            {
+                "id": 38,
+                "name": "Humanities"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
         },
-        {
-            "id": 4097,
-            "topics": [
-                {
-                    "id": 32,
-                    "name": "Engineering"
-                },
-                {
-                    "id": 1,
-                    "name": "Science"
-                },
-                {
-                    "id": 41,
-                    "name": "Chemistry"
-                },
-                {
-                    "id": 73,
-                    "name": "Thermodynamics"
-                },
-                {
-                    "id": 140,
-                    "name": "Materials Science and Engineering"
-                },
-                {
-                    "id": 209,
-                    "name": "Physical Chemistry"
-                },
-                {
-                    "id": 30,
-                    "name": "Physics"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Lecture Notes",
-                "Problem Sets with Solutions",
-                "Exams with Solutions"
-            ],
-            "departments": [
-                {
-                    "department_id": "3",
-                    "name": "Materials Science and Engineering"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 2737,
-                    "instructors": [
-                        {
-                            "id": 1459,
-                            "first_name": "Samuel",
-                            "last_name": "Allen",
-                            "full_name": "Prof. Samuel Allen"
-                        },
-                        {
-                            "id": 744,
-                            "first_name": "Thomas",
-                            "last_name": "Eagar",
-                            "full_name": "Prof. Thomas Eagar"
-                        }
-                    ],
-                    "image": {
-                        "id": 2800,
-                        "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006/e36a3cb8c1066c086fd68559ce31ba3b_3-205f06.jpg",
-                        "description": "Randomly dispersed foreign particles produce \"dizzy dendrites,\" in which the tree-like branches in the crystals tend to curve and split, instead of forming the straight, symmetric patterns typical of pure crystals. This sample was grown in an 80 nanometer-thick film of two blended polymers with randomly dispersed clay particles. (Photo courtesy of the National Institute of Standards and Technology (NIST).)",
-                        "alt": "Photo of dizzy dendrite."
-                    },
-                    "run_id": "cf9250f842fe6dc89189ad76c296a18f",
-                    "title": "Thermodynamics and Kinetics of Materials",
-                    "description": "This course explores materials and materials processes from the perspective of thermodynamics and kinetics. The thermodynamics aspect includes laws of thermodynamics, solution theory and equilibrium diagrams. The kinetics aspect includes diffusion, phase transformations, and the development of microstructure.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T15:25:12Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
-                    "level": "Graduate",
-                    "slug": "courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
-                    "availability": "Current",
-                    "semester": "Fall",
-                    "year": 2006,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 2800,
-                "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006/e36a3cb8c1066c086fd68559ce31ba3b_3-205f06.jpg",
-                "description": "Randomly dispersed foreign particles produce \"dizzy dendrites,\" in which the tree-like branches in the crystals tend to curve and split, instead of forming the straight, symmetric patterns typical of pure crystals. This sample was grown in an 80 nanometer-thick film of two blended polymers with randomly dispersed clay particles. (Photo courtesy of the National Institute of Standards and Technology (NIST).)",
-                "alt": "Photo of dizzy dendrite."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "3.205",
-                        "department": {
-                            "department_id": "3",
-                            "name": "Materials Science and Engineering"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
-            },
-            "readable_id": "3.205+fall_2006",
-            "title": "Thermodynamics and Kinetics of Materials",
-            "description": "This course explores materials and materials processes from the perspective of thermodynamics and kinetics. The thermodynamics aspect includes laws of thermodynamics, solution theory and equilibrium diagrams. The kinetics aspect includes diffusion, phase transformations, and the development of microstructure.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T15:25:12Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/3-205-thermodynamics-and-kinetics-of-materials-fall-2006",
-            "professional": false
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
         },
-        {
-            "id": 4238,
-            "topics": [
-                {
-                    "id": 4,
-                    "name": "Social Science"
-                },
-                {
-                    "id": 38,
-                    "name": "Humanities"
-                },
-                {
-                    "id": 11,
-                    "name": "Communication"
-                },
-                {
-                    "id": 47,
-                    "name": "Language"
-                },
-                {
-                    "id": 80,
-                    "name": "Anthropology"
-                },
-                {
-                    "id": 79,
-                    "name": "Cultural Anthropology"
-                },
-                {
-                    "id": 307,
-                    "name": "English as a Second Language"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Written Assignments"
-            ],
-            "departments": [
-                {
-                    "department_id": "21G",
-                    "name": "Global Studies and Languages"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 2878,
-                    "instructors": [
-                        {
-                            "id": 1590,
-                            "first_name": "Jane",
-                            "last_name": "Dunphy",
-                            "full_name": "Jane Dunphy"
-                        }
-                    ],
-                    "image": {
-                        "id": 2940,
-                        "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019/4d24a55ffb6894fe96be4df86c3ace02_21g-221s19.jpg",
-                        "description": "",
-                        "alt": "Barack Obama holding a microphone and speaking outdoors in front of a number of people."
-                    },
-                    "run_id": "29859e86452391cf4b62bf2729ddc45c",
-                    "title": "Communicating in American Culture(s)",
-                    "description": "In _Communicating in American Culture(s)_, bilingual students examine how various aspects of American culture—history, geography, institutions, traditions, values—have shaped dominant Anglo-American communication norms and responses to critical events in the world. In addition, you can expect to practice and strengthen your analytical and communication skills in a carefully scaffolded manner, starting with frequent short writing and speaking tasks and progressing to longer, more formal tasks.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T15:53:03Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019",
-                    "level": "Undergraduate",
-                    "slug": "courses/21g-221-communicating-in-american-culture-s-spring-2019",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2019,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 2940,
-                "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019/4d24a55ffb6894fe96be4df86c3ace02_21g-221s19.jpg",
-                "description": "",
-                "alt": "Barack Obama holding a microphone and speaking outdoors in front of a number of people."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
+        "course_feature": [],
+        "departments": [
+            {
+                "department_id": "CC",
+                "name": "Concourse"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 2299,
+                "instructors": [
                     {
-                        "value": "21G.221",
-                        "department": {
-                            "department_id": "21G",
-                            "name": "Global Studies and Languages"
-                        },
-                        "listing_type": "primary"
+                        "id": 1051,
+                        "first_name": "Linda",
+                        "last_name": "Rabieh",
+                        "full_name": "Dr. Linda Rabieh"
                     }
-                ]
-            },
-            "readable_id": "21G.221+spring_2019",
-            "title": "Communicating in American Culture(s)",
-            "description": "In _Communicating in American Culture(s)_, bilingual students examine how various aspects of American culture—history, geography, institutions, traditions, values—have shaped dominant Anglo-American communication norms and responses to critical events in the world. In addition, you can expect to practice and strengthen your analytical and communication skills in a carefully scaffolded manner, starting with frequent short writing and speaking tasks and progressing to longer, more formal tasks.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T15:53:03Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/21g-221-communicating-in-american-culture-s-spring-2019",
-            "professional": false
+                ],
+                "image": {
+                    "id": 2363,
+                    "url": "https://ocw.mit.edu/courses/cc-111-modern-conceptions-of-freedom-spring-2013/570145f2dc2535544c89aebc302e4fc5_CC-111s13.jpg",
+                    "description": "Alexis de Tocqueville (1805 - 1859) was a French political thinker and historian best known for his Democracy in America, a two-volume study of the American people and their political institutions. This image is in the public domain. Source: Wikimedia Commons.",
+                    "alt": "A slim smartly-dressed young man, with wavy black hair, stands behind an ornate chair."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "541fcd9012875320b8f2cfcc2ed978b7",
+                "title": "Modern Conceptions of Freedom",
+                "description": "This course examines the modern definition of freedom, and the obligations that people accept in honoring it. It investigates how these obligations are captured in the principles of our political associations. This course also studies how the centrality of freedom plays out in the political thought of such authors as Hobbes, Locke, Rousseau, Burke and Montesquieu, as well as debating which notions of freedom inspire and sustain the American experiment by careful reading of the documents and arguments of the founding of the United States.\n\nThis course is part of the [Concourse](http://web.mit.edu/concourse/www/) program at MIT.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T15:36:59Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/cc-111-modern-conceptions-of-freedom-spring-2013",
+                "slug": "courses/cc-111-modern-conceptions-of-freedom-spring-2013",
+                "availability": "Current",
+                "semester": "Spring",
+                "year": 2013,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2363,
+            "url": "https://ocw.mit.edu/courses/cc-111-modern-conceptions-of-freedom-spring-2013/570145f2dc2535544c89aebc302e4fc5_CC-111s13.jpg",
+            "description": "Alexis de Tocqueville (1805 - 1859) was a French political thinker and historian best known for his Democracy in America, a two-volume study of the American people and their political institutions. This image is in the public domain. Source: Wikimedia Commons.",
+            "alt": "A slim smartly-dressed young man, with wavy black hair, stands behind an ornate chair."
         },
-        {
-            "id": 5589,
-            "topics": [
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
                 {
-                    "id": 128,
-                    "name": "Biochemistry"
-                },
-                {
-                    "id": 1,
-                    "name": "Science"
-                },
-                {
-                    "id": 2,
-                    "name": "Biology"
-                },
-                {
-                    "id": 214,
-                    "name": "Molecular Biology"
-                },
-                {
-                    "id": 215,
-                    "name": "Cell Biology"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Written Assignments",
-                "Presentation Assignments"
-            ],
-            "departments": [
-                {
-                    "department_id": "7",
-                    "name": "Biology"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 4229,
-                    "instructors": [
-                        {
-                            "id": 2473,
-                            "first_name": "Megan",
-                            "last_name": "Kizer",
-                            "full_name": "Dr. Megan Kizer"
-                        },
-                        {
-                            "id": 2474,
-                            "first_name": "Robbie",
-                            "last_name": "Wilson",
-                            "full_name": "Dr. Robbie Wilson"
-                        }
-                    ],
-                    "image": {
-                        "id": 4280,
-                        "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022/7-341s22.jpg",
-                        "description": null,
-                        "alt": "A multi-colored 3 dimensional illustration, shaped like a bumpy donut, representing the structure of an emzyme and its interconnected domains."
+                    "value": "CC.111",
+                    "department": {
+                        "department_id": "CC",
+                        "name": "Concourse"
                     },
-                    "run_id": "360461e5a0bd4e26bad6f2a3eeefd668",
-                    "title": "Turning Evolutionary Dials: Directed Evolution Techniques for Climate Change and Beyond",
-                    "description": "This course will cover the many ways in which we have realized evolution in the laboratory toward functional biomolecules, such as protein and nucleic-acid-based therapeutics, enzymes that catalyze production of synthetic drugs, and carbon-dioxide capture molecules to lessen the impact of climate change. Students will both become familiar with the field of directed molecular evolution and learn how to critically analyze primary research papers, design research experiments, and present data relating to molecular biology and evolution. The importance of directed evolution in biomedical and biotechnological careers, both academic and industrial, will be highlighted.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T14:28:06Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
-                    "level": "Undergraduate",
-                    "slug": "courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2022,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
+                    "listing_type": "primary"
                 }
-            ],
-            "image": {
-                "id": 4280,
-                "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022/7-341s22.jpg",
-                "description": null,
-                "alt": "A multi-colored 3 dimensional illustration, shaped like a bumpy donut, representing the structure of an emzyme and its interconnected domains."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "7.341",
-                        "department": {
-                            "department_id": "7",
-                            "name": "Biology"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
-            },
-            "readable_id": "7.341+spring_2022",
-            "title": "Turning Evolutionary Dials: Directed Evolution Techniques for Climate Change and Beyond",
-            "description": "This course will cover the many ways in which we have realized evolution in the laboratory toward functional biomolecules, such as protein and nucleic-acid-based therapeutics, enzymes that catalyze production of synthetic drugs, and carbon-dioxide capture molecules to lessen the impact of climate change. Students will both become familiar with the field of directed molecular evolution and learn how to critically analyze primary research papers, design research experiments, and present data relating to molecular biology and evolution. The importance of directed evolution in biomedical and biotechnological careers, both academic and industrial, will be highlighted.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.",
-            "full_description": null,
-            "last_modified": "2023-12-06T14:28:06Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/7-341-turning-evolutionary-dials-directed-evolution-techniques-for-climate-change-and-beyond-spring-2022",
-            "professional": false
+            ]
         },
-        {
-            "id": 4113,
-            "topics": [
-                {
-                    "id": 32,
-                    "name": "Engineering"
-                },
-                {
-                    "id": 37,
-                    "name": "Mathematics"
-                },
-                {
-                    "id": 36,
-                    "name": "Probability and Statistics"
-                },
-                {
-                    "id": 29,
-                    "name": "Systems Engineering"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
+        "readable_id": "CC.111+spring_2013",
+        "title": "Modern Conceptions of Freedom",
+        "description": "This course examines the modern definition of freedom, and the obligations that people accept in honoring it. It investigates how these obligations are captured in the principles of our political associations. This course also studies how the centrality of freedom plays out in the political thought of such authors as Hobbes, Locke, Rousseau, Burke and Montesquieu, as well as debating which notions of freedom inspire and sustain the American experiment by careful reading of the documents and arguments of the founding of the United States.\n\nThis course is part of the [Concourse](http://web.mit.edu/concourse/www/) program at MIT.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T15:36:59Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/cc-111-modern-conceptions-of-freedom-spring-2013",
+        "professional": false
+    },
+    {
+        "id": 3828,
+        "topics": [
+            {
+                "id": 131,
+                "name": "Social Anthropology"
             },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
+            {
+                "id": 4,
+                "name": "Social Science"
             },
-            "course_feature": [
-                "Lecture Notes",
-                "Problem Sets with Solutions",
-                "Exams with Solutions"
-            ],
-            "departments": [
-                {
-                    "department_id": "22",
-                    "name": "Nuclear Science and Engineering"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 2753,
-                    "instructors": [
-                        {
-                            "id": 1445,
-                            "first_name": "Michael",
-                            "last_name": "Golay",
-                            "full_name": "Prof. Michael Golay"
-                        }
-                    ],
-                    "image": {
-                        "id": 2816,
-                        "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005/6fbd15d7ca09fae7e66c97bd1a59c848_22-38f05.jpg",
-                        "description": "A fault tree from the NASA Accident Analysis Team in Report of the Presidential Commission on the Space Shuttle Challenger Accident. (Courtesy of NASA.)",
-                        "alt": "Fault tree for external tank and solid rocket booster."
-                    },
-                    "run_id": "010c552ac85a7e0e278ca154294c3892",
-                    "title": "Probability And Its Applications To Reliability, Quality Control, And Risk Assessment",
-                    "description": "This course covers interpretations of the concept of probability. Topics include basic probability rules; random variables and distribution functions; functions of random variables; and applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. The course also considers elements of statistics; Bayesian methods in engineering; methods for reliability and risk assessment of complex systems (event-tree and fault-tree analysis, common-cause failures, human reliability models); uncertainty propagation in complex systems (Monte Carlo methods, Latin Hypercube Sampling); and an introduction to Markov models. Examples and applications are drawn from nuclear and other industries, waste repositories, and mechanical systems.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T14:33:16Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
-                    "level": "Graduate",
-                    "slug": "courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
-                    "availability": "Current",
-                    "semester": "Fall",
-                    "year": 2005,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 2816,
-                "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005/6fbd15d7ca09fae7e66c97bd1a59c848_22-38f05.jpg",
-                "description": "A fault tree from the NASA Accident Analysis Team in Report of the Presidential Commission on the Space Shuttle Challenger Accident. (Courtesy of NASA.)",
-                "alt": "Fault tree for external tank and solid rocket booster."
+            {
+                "id": 38,
+                "name": "Humanities"
             },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "22.38",
-                        "department": {
-                            "department_id": "22",
-                            "name": "Nuclear Science and Engineering"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
+            {
+                "id": 39,
+                "name": "Philosophy"
             },
-            "readable_id": "22.38+fall_2005",
-            "title": "Probability And Its Applications To Reliability, Quality Control, And Risk Assessment",
-            "description": "This course covers interpretations of the concept of probability. Topics include basic probability rules; random variables and distribution functions; functions of random variables; and applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. The course also considers elements of statistics; Bayesian methods in engineering; methods for reliability and risk assessment of complex systems (event-tree and fault-tree analysis, common-cause failures, human reliability models); uncertainty propagation in complex systems (Monte Carlo methods, Latin Hypercube Sampling); and an introduction to Markov models. Examples and applications are drawn from nuclear and other industries, waste repositories, and mechanical systems.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T14:33:16Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/22-38-probability-and-its-applications-to-reliability-quality-control-and-risk-assessment-fall-2005",
-            "professional": false
+            {
+                "id": 70,
+                "name": "American History"
+            },
+            {
+                "id": 43,
+                "name": "History"
+            },
+            {
+                "id": 79,
+                "name": "Cultural Anthropology"
+            },
+            {
+                "id": 80,
+                "name": "Anthropology"
+            },
+            {
+                "id": 82,
+                "name": "Political Philosophy"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
         },
-        {
-            "id": 4041,
-            "topics": [
-                {
-                    "id": 186,
-                    "name": "Industrial Relations and Human Resource Management"
-                },
-                {
-                    "id": 7,
-                    "name": "Business"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Lecture Notes",
-                "Exams"
-            ],
-            "departments": [
-                {
-                    "department_id": "15",
-                    "name": "Sloan School of Management"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 2681,
-                    "instructors": [
-                        {
-                            "id": 779,
-                            "first_name": "Diane",
-                            "last_name": "Burton",
-                            "full_name": "Prof. Diane Burton"
-                        },
-                        {
-                            "id": 703,
-                            "first_name": "Paul",
-                            "last_name": "Osterman",
-                            "full_name": "Prof. Paul Osterman"
-                        }
-                    ],
-                    "image": {
-                        "id": 2744,
-                        "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003/10124a7188f51cee59a8bd9b3a0aad44_15-660s03.jpg",
-                        "description": "",
-                        "alt": "Bobsled team competing in Winter Olympics."
-                    },
-                    "run_id": "d0d1f5f5bb6f3a2b8a13dd87abc76b8c",
-                    "title": "Strategic HR Management",
-                    "description": "This course is about both the design and execution of human resource management strategies. This course has two central themes: (1) How to think systematically and strategically about aspects of managing the organization's human assets, and (2) What really needs to be done to implement these policies and to achieve competitive advantage. It adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T14:18:56Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003",
-                    "level": "Graduate",
-                    "slug": "courses/15-660-strategic-hr-management-spring-2003",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2003,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 2744,
-                "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003/10124a7188f51cee59a8bd9b3a0aad44_15-660s03.jpg",
-                "description": "",
-                "alt": "Bobsled team competing in Winter Olympics."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "15.660",
-                        "department": {
-                            "department_id": "15",
-                            "name": "Sloan School of Management"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
-            },
-            "readable_id": "15.660+spring_2003",
-            "title": "Strategic HR Management",
-            "description": "This course is about both the design and execution of human resource management strategies. This course has two central themes: (1) How to think systematically and strategically about aspects of managing the organization's human assets, and (2) What really needs to be done to implement these policies and to achieve competitive advantage. It adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T14:18:56Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/15-660-strategic-hr-management-spring-2003",
-            "professional": false
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
         },
-        {
-            "id": 4698,
-            "topics": [
-                {
-                    "id": 156,
-                    "name": "Linguistics"
-                },
-                {
-                    "id": 182,
-                    "name": "Phonology"
-                },
-                {
-                    "id": 38,
-                    "name": "Humanities"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Lecture Notes",
-                "Written Assignments",
-                "Problem Sets"
-            ],
-            "departments": [
-                {
-                    "department_id": "24",
-                    "name": "Linguistics and Philosophy"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 3338,
-                    "instructors": [
-                        {
-                            "id": 699,
-                            "first_name": "Edward",
-                            "last_name": "Flemming",
-                            "full_name": "Prof. Edward Flemming"
-                        }
-                    ],
-                    "image": {
-                        "id": 3398,
-                        "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015/ceb01a247960c746f44324ee761b9cdd_24-915f15.jpg",
-                        "description": "CHP image of a waveform for the f15 iteration of 24.915.",
-                        "alt": "On the right is a waveform in black on a blue background, and on the left shows trees reflecting on a still lake with snowy mountains in the background."
-                    },
-                    "run_id": "9bff24096453777f38e55c662d0e7767",
-                    "title": "Linguistic Phonetics",
-                    "description": "This course is about the study of speech sounds; how we produce and perceive them and their acoustic properties. Topics include the influence of the production and perception systems on phonological patterns and sound change, students learn acoustic analysis and experimental techniques. Students taking the graduate version complete different assignments.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T15:32:05Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015",
-                    "level": "Undergraduate, Graduate",
-                    "slug": "courses/24-915-linguistic-phonetics-fall-2015",
-                    "availability": "Current",
-                    "semester": "Fall",
-                    "year": 2015,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 3398,
-                "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015/ceb01a247960c746f44324ee761b9cdd_24-915f15.jpg",
-                "description": "CHP image of a waveform for the f15 iteration of 24.915.",
-                "alt": "On the right is a waveform in black on a blue background, and on the left shows trees reflecting on a still lake with snowy mountains in the background."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
+        "course_feature": [
+            "Written Assignments"
+        ],
+        "departments": [
+            {
+                "department_id": "21H",
+                "name": "History"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 2468,
+                "instructors": [
                     {
-                        "value": "24.915",
-                        "department": {
-                            "department_id": "24",
-                            "name": "Linguistics and Philosophy"
-                        },
-                        "listing_type": "primary"
-                    },
-                    {
-                        "value": "24.963",
-                        "department": {
-                            "department_id": "24",
-                            "name": "Linguistics and Philosophy"
-                        },
-                        "listing_type": "cross-listed"
+                        "id": 1207,
+                        "first_name": "Meg",
+                        "last_name": "Jacobs",
+                        "full_name": "Prof. Meg Jacobs"
                     }
-                ]
-            },
-            "readable_id": "24.915+fall_2015",
-            "title": "Linguistic Phonetics",
-            "description": "This course is about the study of speech sounds; how we produce and perceive them and their acoustic properties. Topics include the influence of the production and perception systems on phonological patterns and sound change, students learn acoustic analysis and experimental techniques. Students taking the graduate version complete different assignments.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T15:32:05Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/24-915-linguistic-phonetics-fall-2015",
-            "professional": false
+                ],
+                "image": {
+                    "id": 2532,
+                    "url": "https://ocw.mit.edu/courses/21h-206-american-consumer-culture-fall-2007/cc80e09ea92f62f67790300fe4176345_21h-206f07.jpg",
+                    "description": "Automobiles in window of the Washington-Cadillac Co., Washington, D.C. (Image courtesy of Library of Congress, Prints & Photographs Division , FSA-OWI Collection, [reproduction number LC-USZ62-111329 DLC].)",
+                    "alt": "Black and white photo of a card dealership."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "b7d476b5863b76d1ad89568266247fd1",
+                "title": "American Consumer Culture",
+                "description": "This class examines how and why twentieth-century Americans came to define the \"good life\" through consumption, leisure, and material abundance. We will explore how such things as department stores, nationally advertised brand-name goods, mass-produced cars, and suburbs transformed the American economy, society, and politics. The course is organized both thematically and chronologically. Each period deals with a new development in the history of consumer culture. Throughout we explore both celebrations and critiques of mass consumption and abundance.\n",
+                "full_description": null,
+                "last_modified": "2024-02-07T22:01:56Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/21h-206-american-consumer-culture-fall-2007",
+                "slug": "courses/21h-206-american-consumer-culture-fall-2007",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2007,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2532,
+            "url": "https://ocw.mit.edu/courses/21h-206-american-consumer-culture-fall-2007/cc80e09ea92f62f67790300fe4176345_21h-206f07.jpg",
+            "description": "Automobiles in window of the Washington-Cadillac Co., Washington, D.C. (Image courtesy of Library of Congress, Prints & Photographs Division , FSA-OWI Collection, [reproduction number LC-USZ62-111329 DLC].)",
+            "alt": "Black and white photo of a card dealership."
         },
-        {
-            "id": 4541,
-            "topics": [
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
                 {
-                    "id": 4,
-                    "name": "Social Science"
-                },
-                {
-                    "id": 7,
-                    "name": "Business"
-                },
-                {
-                    "id": 8,
-                    "name": "Political Science"
-                },
-                {
-                    "id": 9,
-                    "name": "Society"
-                },
-                {
-                    "id": 235,
-                    "name": "Women's Studies"
-                },
-                {
-                    "id": 15,
-                    "name": "Leadership"
-                },
-                {
-                    "id": 208,
-                    "name": "Gender Studies"
-                },
-                {
-                    "id": 49,
-                    "name": "Public Policy"
-                },
-                {
-                    "id": 308,
-                    "name": "Social Welfare"
-                },
-                {
-                    "id": 53,
-                    "name": "Public Administration"
-                },
-                {
-                    "id": 281,
-                    "name": "American Politics"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
-            },
-            "course_feature": [
-                "Written Assignments with Examples",
-                "Instructor Insights"
-            ],
-            "departments": [
-                {
-                    "department_id": "WGS",
-                    "name": "Women's and Gender Studies"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 3181,
-                    "instructors": [
-                        {
-                            "id": 1848,
-                            "first_name": "Mindy",
-                            "last_name": "Fried",
-                            "full_name": "Dr. Mindy Fried"
-                        }
-                    ],
-                    "image": {
-                        "id": 3241,
-                        "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014/2888e7c93814bc3ade6901fbee38bb10_wgs-s10s14.jpg",
-                        "description": "During an International Women's Day demonstration in Valencia, Spain, women gathered to collectively breastfeed to advocate for their rights as working mothers. Image courtesy of Amadeu Sanz on Flickr. CC NC-BY-SA.",
-                        "alt": "A photograph of a group of women sit on the ground nursing their babies."
+                    "value": "21H.206",
+                    "department": {
+                        "department_id": "21H",
+                        "name": "History"
                     },
-                    "run_id": "18f30b4ebe6ae04244d9b6fdf7de4e9e",
-                    "title": "Gender, Power, Leadership, and the Workplace",
-                    "description": "This course will provide students with an analytic framework to understand the roles that gender, race, and class play in defining and determining access to leadership and power in the U.S., especially in the context of the workplace. We will explore women and men in leadership positions within the corporate, political and non-profit sectors, with attention to the roles of women of color and immigrant women within this context. We will also look at specific policies such as affirmative action, parental leave, child-care policy, and working-time policies and the role they play–or could play–in achieving parity. We will further investigate ways in which these policies address gender, racial, and class inequities, and think critically about mechanisms for change. The course will be highly interactive, and will combine texts, theater, videos and visual arts.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T14:14:29Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
-                    "level": "Undergraduate",
-                    "slug": "courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2014,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
+                    "listing_type": "primary"
                 }
-            ],
-            "image": {
-                "id": 3241,
-                "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014/2888e7c93814bc3ade6901fbee38bb10_wgs-s10s14.jpg",
-                "description": "During an International Women's Day demonstration in Valencia, Spain, women gathered to collectively breastfeed to advocate for their rights as working mothers. Image courtesy of Amadeu Sanz on Flickr. CC NC-BY-SA.",
-                "alt": "A photograph of a group of women sit on the ground nursing their babies."
-            },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "WGS.S10",
-                        "department": {
-                            "department_id": "WGS",
-                            "name": "Women's and Gender Studies"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
-            },
-            "readable_id": "WGS.S10+spring_2014",
-            "title": "Gender, Power, Leadership, and the Workplace",
-            "description": "This course will provide students with an analytic framework to understand the roles that gender, race, and class play in defining and determining access to leadership and power in the U.S., especially in the context of the workplace. We will explore women and men in leadership positions within the corporate, political and non-profit sectors, with attention to the roles of women of color and immigrant women within this context. We will also look at specific policies such as affirmative action, parental leave, child-care policy, and working-time policies and the role they play–or could play–in achieving parity. We will further investigate ways in which these policies address gender, racial, and class inequities, and think critically about mechanisms for change. The course will be highly interactive, and will combine texts, theater, videos and visual arts.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T14:14:29Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/wgs-s10-gender-power-leadership-and-the-workplace-spring-2014",
-            "professional": false
+            ]
         },
-        {
-            "id": 5246,
-            "topics": [
-                {
-                    "id": 36,
-                    "name": "Probability and Statistics"
-                },
-                {
-                    "id": 37,
-                    "name": "Mathematics"
-                },
-                {
-                    "id": 159,
-                    "name": "Mathematical Analysis"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
+        "readable_id": "21H.206+fall_2007",
+        "title": "American Consumer Culture",
+        "description": "This class examines how and why twentieth-century Americans came to define the \"good life\" through consumption, leisure, and material abundance. We will explore how such things as department stores, nationally advertised brand-name goods, mass-produced cars, and suburbs transformed the American economy, society, and politics. The course is organized both thematically and chronologically. Each period deals with a new development in the history of consumer culture. Throughout we explore both celebrations and critiques of mass consumption and abundance.\n",
+        "full_description": null,
+        "last_modified": "2024-02-07T22:01:56Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/21h-206-american-consumer-culture-fall-2007",
+        "professional": false
+    },
+    {
+        "id": 5036,
+        "topics": [
+            {
+                "id": 32,
+                "name": "Engineering"
             },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
+            {
+                "id": 3,
+                "name": "Teaching and Education"
             },
-            "course_feature": [
-                "Lecture Notes",
-                "Problem Sets"
-            ],
-            "departments": [
-                {
-                    "department_id": "18",
-                    "name": "Mathematics"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 3886,
-                    "instructors": [
-                        {
-                            "id": 1175,
-                            "first_name": "Scott",
-                            "last_name": "Sheffield",
-                            "full_name": "Prof. Scott Sheffield"
-                        }
-                    ],
-                    "image": {
-                        "id": 3942,
-                        "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/27c7527c8726658ad43f1e098d73b67e_18-175s14.jpg",
-                        "description": "Diffusion through a liquid. Image courtesy of Sanath Kumar on Flickr. CC BY 2.0. ",
-                        "alt": "Image of a blue substance diffusing through a clear liquid."
-                    },
-                    "run_id": "3ffc15bd89dc2b022008638010618126",
-                    "title": "Theory of Probability",
-                    "description": "This course covers topics such as sums of independent random variables, central limit phenomena, infinitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T15:05:29Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014",
-                    "level": "Graduate",
-                    "slug": "courses/18-175-theory-of-probability-spring-2014",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2014,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 3942,
-                "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/27c7527c8726658ad43f1e098d73b67e_18-175s14.jpg",
-                "description": "Diffusion through a liquid. Image courtesy of Sanath Kumar on Flickr. CC BY 2.0. ",
-                "alt": "Image of a blue substance diffusing through a clear liquid."
+            {
+                "id": 119,
+                "name": "Education Policy"
             },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
-                    {
-                        "value": "18.175",
-                        "department": {
-                            "department_id": "18",
-                            "name": "Mathematics"
-                        },
-                        "listing_type": "primary"
-                    }
-                ]
+            {
+                "id": 216,
+                "name": "Curriculum and Teaching"
             },
-            "readable_id": "18.175+spring_2014",
-            "title": "Theory of Probability",
-            "description": "This course covers topics such as sums of independent random variables, central limit phenomena, infinitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T15:05:29Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014",
-            "professional": false
+            {
+                "id": 217,
+                "name": "Higher Education"
+            },
+            {
+                "id": 120,
+                "name": "Educational Technology"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
         },
-        {
-            "id": 4726,
-            "topics": [
-                {
-                    "id": 17,
-                    "name": "Marketing"
-                },
-                {
-                    "id": 10,
-                    "name": "Entrepreneurship"
-                },
-                {
-                    "id": 7,
-                    "name": "Business"
-                }
-            ],
-            "offered_by": {
-                "code": "ocw",
-                "name": "OCW"
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Activity Assignments",
+            "Instructor Insights",
+            "Lecture Videos",
+            "Written Assignments"
+        ],
+        "departments": [
+            {
+                "department_id": "18",
+                "name": "Mathematics"
             },
-            "platform": {
-                "code": "ocw",
-                "name": "OCW"
+            {
+                "department_id": "7",
+                "name": "Biology"
             },
-            "course_feature": [
-                "Lecture Notes",
-                "Written Assignments with Examples"
-            ],
-            "departments": [
-                {
-                    "department_id": "15",
-                    "name": "Sloan School of Management"
-                }
-            ],
-            "certification": false,
-            "prices": [],
-            "runs": [
-                {
-                    "id": 3366,
-                    "instructors": [
-                        {
-                            "id": 1976,
-                            "first_name": "Jin",
-                            "last_name": "Kim",
-                            "full_name": "Prof. Jin Gyo Kim"
-                        }
-                    ],
-                    "image": {
-                        "id": 3426,
-                        "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002/6efc1711d37e8e136ae578131f10f11a_15-835s02.jpg",
-                        "description": "Major themes of entrepreneurial marketing. (Diagram by Prof. Jin Gyo Kim.)",
-                        "alt": "An illustration containing the central themes and questions of entrepreneurial ventures and marketing."
-                    },
-                    "run_id": "9e4b93ac9f130565f1fb9a238751ab9b",
-                    "title": "Entrepreneurial Marketing",
-                    "description": "This course clarifies key marketing concepts, methods, and strategic issues relevant for start-up and early-stage entrepreneurs. At this course, there are two major questions:\n\n1.  **Marketing Question:** What and how am I selling to whom?\n2.  **New Venture Question:** How do I best leverage my limited marketing recourses?\n\nSpecifically, this course is designed to give students a broad and deep understanding of such topics as:\n\n1.  What are major strategic constraints and issues confronted by entrepreneurs today?\n2.  How can one identify and evaluate marketing opportunities?\n3.  How do entrepreneurs achieve competitive advantages given limited marketing resources?\n4.  What major marketing/sales tools are most useful in an entrepreneurial setting?\n\nBecause there is no universal marketing solution applicable to all entrepreneurial ventures, this course is designed to help students develop a flexible way of thinking about marketing problems in general.\n",
-                    "full_description": null,
-                    "last_modified": "2023-12-06T15:35:01Z",
-                    "published": true,
-                    "languages": null,
-                    "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002",
-                    "level": "Graduate",
-                    "slug": "courses/15-835-entrepreneurial-marketing-spring-2002",
-                    "availability": "Current",
-                    "semester": "Spring",
-                    "year": 2002,
-                    "start_date": null,
-                    "end_date": null,
-                    "enrollment_start": null,
-                    "enrollment_end": null,
-                    "prices": null,
-                    "checksum": null
-                }
-            ],
-            "image": {
-                "id": 3426,
-                "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002/6efc1711d37e8e136ae578131f10f11a_15-835s02.jpg",
-                "description": "Major themes of entrepreneurial marketing. (Diagram by Prof. Jin Gyo Kim.)",
-                "alt": "An illustration containing the central themes and questions of entrepreneurial ventures and marketing."
+            {
+                "department_id": "5",
+                "name": "Chemistry"
             },
-            "learning_path_parents": [],
-            "user_list_parents": [],
-            "resource_type": "course",
-            "course": {
-                "course_numbers": [
+            {
+                "department_id": "8",
+                "name": "Physics"
+            },
+            {
+                "department_id": "1",
+                "name": "Civil and Environmental Engineering"
+            },
+            {
+                "department_id": "6",
+                "name": "Electrical Engineering and Computer Science"
+            },
+            {
+                "department_id": "2",
+                "name": "Mechanical Engineering"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 3676,
+                "instructors": [
                     {
-                        "value": "15.835",
-                        "department": {
-                            "department_id": "15",
-                            "name": "Sloan School of Management"
-                        },
-                        "listing_type": "primary"
+                        "id": 2194,
+                        "first_name": "Janet",
+                        "last_name": "Rankin",
+                        "full_name": "Dr. Janet Rankin"
                     }
-                ]
+                ],
+                "image": {
+                    "id": 3732,
+                    "url": "https://ocw.mit.edu/courses/5-95j-teaching-college-level-science-and-engineering-fall-2015/680c27ffaa1346598119362072b1d5df_5-95jf15.jpg",
+                    "description": "Students answer a concept question using non-digital student response devices called plickers (short for paper clickers). Image by MIT OpenCourseWare.",
+                    "alt": "Students holding up cards with images on them that can be scanned as voting devices."
+                },
+                "level": [
+                    {
+                        "code": "graduate",
+                        "name": "Graduate"
+                    }
+                ],
+                "run_id": "8567c6d26924e53ae9278a51c9468ff7",
+                "title": "Teaching College-Level Science and Engineering",
+                "description": "This participatory seminar focuses on the knowledge and skills necessary for teaching science and engineering in higher education. It is designed for graduate students interested in an academic career, and anyone else interested in teaching. Students research and present a relevant topic of particular interest. The subject is appropriate for both novices and those with teaching experience.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T16:12:02Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/5-95j-teaching-college-level-science-and-engineering-fall-2015",
+                "slug": "courses/5-95j-teaching-college-level-science-and-engineering-fall-2015",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2015,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 3732,
+            "url": "https://ocw.mit.edu/courses/5-95j-teaching-college-level-science-and-engineering-fall-2015/680c27ffaa1346598119362072b1d5df_5-95jf15.jpg",
+            "description": "Students answer a concept question using non-digital student response devices called plickers (short for paper clickers). Image by MIT OpenCourseWare.",
+            "alt": "Students holding up cards with images on them that can be scanned as voting devices."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "5.95J",
+                    "department": {
+                        "department_id": "5",
+                        "name": "Chemistry"
+                    },
+                    "listing_type": "primary"
+                },
+                {
+                    "value": "6.982J",
+                    "department": {
+                        "department_id": "6",
+                        "name": "Electrical Engineering and Computer Science"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "7.59J",
+                    "department": {
+                        "department_id": "7",
+                        "name": "Biology"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "8.395J",
+                    "department": {
+                        "department_id": "8",
+                        "name": "Physics"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "18.094J",
+                    "department": {
+                        "department_id": "18",
+                        "name": "Mathematics"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "1.95J",
+                    "department": {
+                        "department_id": "1",
+                        "name": "Civil and Environmental Engineering"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "2.978J",
+                    "department": {
+                        "department_id": "2",
+                        "name": "Mechanical Engineering"
+                    },
+                    "listing_type": "cross-listed"
+                }
+            ]
+        },
+        "readable_id": "5.95J+fall_2015",
+        "title": "Teaching College-Level Science and Engineering",
+        "description": "This participatory seminar focuses on the knowledge and skills necessary for teaching science and engineering in higher education. It is designed for graduate students interested in an academic career, and anyone else interested in teaching. Students research and present a relevant topic of particular interest. The subject is appropriate for both novices and those with teaching experience.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T16:12:02Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/5-95j-teaching-college-level-science-and-engineering-fall-2015",
+        "professional": false
+    },
+    {
+        "id": 3336,
+        "topics": [
+            {
+                "id": 128,
+                "name": "Biochemistry"
             },
-            "readable_id": "15.835+spring_2002",
-            "title": "Entrepreneurial Marketing",
-            "description": "This course clarifies key marketing concepts, methods, and strategic issues relevant for start-up and early-stage entrepreneurs. At this course, there are two major questions:\n\n1.  **Marketing Question:** What and how am I selling to whom?\n2.  **New Venture Question:** How do I best leverage my limited marketing recourses?\n\nSpecifically, this course is designed to give students a broad and deep understanding of such topics as:\n\n1.  What are major strategic constraints and issues confronted by entrepreneurs today?\n2.  How can one identify and evaluate marketing opportunities?\n3.  How do entrepreneurs achieve competitive advantages given limited marketing resources?\n4.  What major marketing/sales tools are most useful in an entrepreneurial setting?\n\nBecause there is no universal marketing solution applicable to all entrepreneurial ventures, this course is designed to help students develop a flexible way of thinking about marketing problems in general.\n",
-            "full_description": null,
-            "last_modified": "2023-12-06T15:35:01Z",
-            "published": true,
-            "languages": null,
-            "url": "https://ocw.mit.edu/courses/15-835-entrepreneurial-marketing-spring-2002",
-            "professional": false
-        }
+            {
+                "id": 1,
+                "name": "Science"
+            },
+            {
+                "id": 2,
+                "name": "Biology"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Lecture Notes",
+            "Image Gallery"
+        ],
+        "departments": [
+            {
+                "department_id": "5",
+                "name": "Chemistry"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 1976,
+                "instructors": [
+                    {
+                        "id": 623,
+                        "first_name": "Elizabeth",
+                        "last_name": "Taylor",
+                        "full_name": "Dr. Elizabeth Vogel Taylor"
+                    }
+                ],
+                "image": {
+                    "id": 2040,
+                    "url": "https://ocw.mit.edu/courses/5-36-biochemistry-laboratory-spring-2009/ac1586bc3d2b67f4782780f48ccca8f2_5-36S09.jpg",
+                    "description": "Gleevec bound to the Abl kinase domain. (PDB ID: 1IEP. Nagar, B., W. Bornmann, P. Pellicena, T. Schindler, D. R. Veach, W. T. Miller, B. Clarkson, J. Kuriyan. \"Crystal Structures of the Kinase Domain of c-Abl in Complex with the Small Molecule Inhibitors PD173955 and Imatinib.\" Cancer Research. 62 (2002): 4236-4243. Image by Elizabeth Vogel Taylor.)",
+                    "alt": "Gleevec molecule inside purple ribbons of enzyme."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "6b37f3cc1d1a0b5ece034b3306be57bc",
+                "title": "Biochemistry Laboratory",
+                "description": "The course, which spans two thirds of a semester, provides students with a research-inspired laboratory experience that introduces standard biochemical techniques in the context of investigating a current and exciting research topic, acquired resistance to the cancer drug Gleevec. Techniques include protein expression, purification, and gel analysis, PCR, site-directed mutagenesis, kinase activity assays, and protein structure viewing.\n\nThis class is part of the new laboratory curriculum in the MIT Department of Chemistry. Undergraduate Research-Inspired Experimental Chemistry Alternatives ([URIECA](http://web.mit.edu/chemistry/www/academic/urieca.html)) introduces students to cutting edge research topics in a modular format.\n\n##### Acknowledgments\n\nDevelopment of this course was funded through an HHMI Professors grant to Professor Catherine L. Drennan.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T19:30:23Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/5-36-biochemistry-laboratory-spring-2009",
+                "slug": "courses/5-36-biochemistry-laboratory-spring-2009",
+                "availability": "Current",
+                "semester": "Spring",
+                "year": 2009,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2040,
+            "url": "https://ocw.mit.edu/courses/5-36-biochemistry-laboratory-spring-2009/ac1586bc3d2b67f4782780f48ccca8f2_5-36S09.jpg",
+            "description": "Gleevec bound to the Abl kinase domain. (PDB ID: 1IEP. Nagar, B., W. Bornmann, P. Pellicena, T. Schindler, D. R. Veach, W. T. Miller, B. Clarkson, J. Kuriyan. \"Crystal Structures of the Kinase Domain of c-Abl in Complex with the Small Molecule Inhibitors PD173955 and Imatinib.\" Cancer Research. 62 (2002): 4236-4243. Image by Elizabeth Vogel Taylor.)",
+            "alt": "Gleevec molecule inside purple ribbons of enzyme."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "5.36",
+                    "department": {
+                        "department_id": "5",
+                        "name": "Chemistry"
+                    },
+                    "listing_type": "primary"
+                }
+            ]
+        },
+        "readable_id": "5.36+spring_2009",
+        "title": "Biochemistry Laboratory",
+        "description": "The course, which spans two thirds of a semester, provides students with a research-inspired laboratory experience that introduces standard biochemical techniques in the context of investigating a current and exciting research topic, acquired resistance to the cancer drug Gleevec. Techniques include protein expression, purification, and gel analysis, PCR, site-directed mutagenesis, kinase activity assays, and protein structure viewing.\n\nThis class is part of the new laboratory curriculum in the MIT Department of Chemistry. Undergraduate Research-Inspired Experimental Chemistry Alternatives ([URIECA](http://web.mit.edu/chemistry/www/academic/urieca.html)) introduces students to cutting edge research topics in a modular format.\n\n##### Acknowledgments\n\nDevelopment of this course was funded through an HHMI Professors grant to Professor Catherine L. Drennan.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T19:30:23Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/5-36-biochemistry-laboratory-spring-2009",
+        "professional": false
+    },
+    {
+        "id": 3737,
+        "topics": [
+            {
+                "id": 32,
+                "name": "Engineering"
+            },
+            {
+                "id": 1,
+                "name": "Science"
+            },
+            {
+                "id": 2,
+                "name": "Biology"
+            },
+            {
+                "id": 168,
+                "name": "Computation and Systems Biology"
+            },
+            {
+                "id": 300,
+                "name": "Ecology"
+            },
+            {
+                "id": 278,
+                "name": "Microbiology"
+            },
+            {
+                "id": 215,
+                "name": "Cell Biology"
+            },
+            {
+                "id": 25,
+                "name": "Biological Engineering"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Lecture Notes",
+            "Problem Sets with Solutions",
+            "Exams"
+        ],
+        "departments": [
+            {
+                "department_id": "1",
+                "name": "Civil and Environmental Engineering"
+            },
+            {
+                "department_id": "20",
+                "name": "Biological Engineering"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 2377,
+                "instructors": [
+                    {
+                        "id": 1116,
+                        "first_name": "Edward",
+                        "last_name": "DeLong",
+                        "full_name": "Prof. Edward DeLong"
+                    },
+                    {
+                        "id": 1115,
+                        "first_name": "David",
+                        "last_name": "Schauer",
+                        "full_name": "Prof. David Schauer"
+                    }
+                ],
+                "image": {
+                    "id": 2441,
+                    "url": "https://ocw.mit.edu/courses/20-106j-systems-microbiology-fall-2006/143e8064abe7d168bd7917b66bc5a4a1_20-106jf06.jpg",
+                    "description": "This natural rotary motor propels the flagella of E. coli cells, allowing them to move forward. (Figure by MIT OCW.)",
+                    "alt": "Diagram of the flagellar rotary motor that propels E. coli. "
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "8b9e07126b5b42fb576fa6d2bda83050",
+                "title": "Systems Microbiology",
+                "description": "This course covers introductory microbiology from a systems perspective, considering microbial diversity, population dynamics, and genomics. Emphasis is placed on the delicate balance between microbes and humans, and the changes that result in the emergence of infectious diseases and antimicrobial resistance. The case study approach covers such topics as vaccines, toxins, biodefense, and infections including Legionnaire’s disease, tuberculosis, Helicobacter pylori, and plague.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T19:56:50Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/20-106j-systems-microbiology-fall-2006",
+                "slug": "courses/20-106j-systems-microbiology-fall-2006",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2006,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2441,
+            "url": "https://ocw.mit.edu/courses/20-106j-systems-microbiology-fall-2006/143e8064abe7d168bd7917b66bc5a4a1_20-106jf06.jpg",
+            "description": "This natural rotary motor propels the flagella of E. coli cells, allowing them to move forward. (Figure by MIT OCW.)",
+            "alt": "Diagram of the flagellar rotary motor that propels E. coli. "
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "20.106J",
+                    "department": {
+                        "department_id": "20",
+                        "name": "Biological Engineering"
+                    },
+                    "listing_type": "primary"
+                },
+                {
+                    "value": "1.084J",
+                    "department": {
+                        "department_id": "1",
+                        "name": "Civil and Environmental Engineering"
+                    },
+                    "listing_type": "cross-listed"
+                }
+            ]
+        },
+        "readable_id": "20.106J+fall_2006",
+        "title": "Systems Microbiology",
+        "description": "This course covers introductory microbiology from a systems perspective, considering microbial diversity, population dynamics, and genomics. Emphasis is placed on the delicate balance between microbes and humans, and the changes that result in the emergence of infectious diseases and antimicrobial resistance. The case study approach covers such topics as vaccines, toxins, biodefense, and infections including Legionnaire’s disease, tuberculosis, Helicobacter pylori, and plague.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T19:56:50Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/20-106j-systems-microbiology-fall-2006",
+        "professional": false
+    },
+    {
+        "id": 4082,
+        "topics": [
+            {
+                "id": 32,
+                "name": "Engineering"
+            },
+            {
+                "id": 1,
+                "name": "Science"
+            },
+            {
+                "id": 257,
+                "name": "Biomaterials"
+            },
+            {
+                "id": 2,
+                "name": "Biology"
+            },
+            {
+                "id": 128,
+                "name": "Biochemistry"
+            },
+            {
+                "id": 192,
+                "name": "Organic Chemistry"
+            },
+            {
+                "id": 41,
+                "name": "Chemistry"
+            },
+            {
+                "id": 74,
+                "name": "Chemical Engineering"
+            },
+            {
+                "id": 12,
+                "name": "Health and Medicine"
+            },
+            {
+                "id": 109,
+                "name": "Molecular Engineering"
+            },
+            {
+                "id": 214,
+                "name": "Molecular Biology"
+            },
+            {
+                "id": 25,
+                "name": "Biological Engineering"
+            },
+            {
+                "id": 318,
+                "name": "Cellular and Molecular Medicine"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Written Assignments",
+            "Presentation Assignments"
+        ],
+        "departments": [
+            {
+                "department_id": "7",
+                "name": "Biology"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 2722,
+                "instructors": [
+                    {
+                        "id": 1441,
+                        "first_name": "Kenton",
+                        "last_name": "Hetrick",
+                        "full_name": "Dr. Kenton Hetrick"
+                    },
+                    {
+                        "id": 1440,
+                        "first_name": "Emily",
+                        "last_name": "Ulrich",
+                        "full_name": "Dr. Emily C Ulrich"
+                    }
+                ],
+                "image": {
+                    "id": 2785,
+                    "url": "https://ocw.mit.edu/courses/7-343-microbial-megaproducers-discovery-biosynthesis-engineering-and-applications-of-natural-products-fall-2020/520abf31ec7fb3ce3d29e7960207d7a4_7-343f20.jpg",
+                    "description": "A pie chart showing the classes of terpenes and their applications.",
+                    "alt": "A pie chart showing six different groups of terpene compounds, their chemical structures, their different uses, and the plants from which they are derived."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "4715d7313e903847c5b60d02e6de906c",
+                "title": "Microbial Megaproducers: Discovery, Biosynthesis, Engineering and Applications of Natural Products",
+                "description": "The natural world is a mega-factory of small molecules, peptides, fatty acids, phospholipids, and a host of other compounds, known as natural products (NPs). Immensely diverse in structure and function, NPs have strongly influenced how we treat infectious disease, cancer, pain, and a host of other conditions. Roughly half of the drugs that have been approved in the past 30 years are NPs, derivatives of NPs or NP-inspired. In this discussion-based course, we will delve into research on discovering NPs from producing organisms, investigating the biochemistry of NP production, and using synthetic biology to create NP derivatives—all with a particular emphasis on how genomic data guides and informs all these studies.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.\n",
+                "full_description": null,
+                "last_modified": "2024-02-07T21:33:38Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/7-343-microbial-megaproducers-discovery-biosynthesis-engineering-and-applications-of-natural-products-fall-2020",
+                "slug": "courses/7-343-microbial-megaproducers-discovery-biosynthesis-engineering-and-applications-of-natural-products-fall-2020",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2020,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2785,
+            "url": "https://ocw.mit.edu/courses/7-343-microbial-megaproducers-discovery-biosynthesis-engineering-and-applications-of-natural-products-fall-2020/520abf31ec7fb3ce3d29e7960207d7a4_7-343f20.jpg",
+            "description": "A pie chart showing the classes of terpenes and their applications.",
+            "alt": "A pie chart showing six different groups of terpene compounds, their chemical structures, their different uses, and the plants from which they are derived."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "7.343",
+                    "department": {
+                        "department_id": "7",
+                        "name": "Biology"
+                    },
+                    "listing_type": "primary"
+                }
+            ]
+        },
+        "readable_id": "7.343+fall_2020",
+        "title": "Microbial Megaproducers: Discovery, Biosynthesis, Engineering and Applications of Natural Products",
+        "description": "The natural world is a mega-factory of small molecules, peptides, fatty acids, phospholipids, and a host of other compounds, known as natural products (NPs). Immensely diverse in structure and function, NPs have strongly influenced how we treat infectious disease, cancer, pain, and a host of other conditions. Roughly half of the drugs that have been approved in the past 30 years are NPs, derivatives of NPs or NP-inspired. In this discussion-based course, we will delve into research on discovering NPs from producing organisms, investigating the biochemistry of NP production, and using synthetic biology to create NP derivatives—all with a particular emphasis on how genomic data guides and informs all these studies.\n\nThis course is one of many [Advanced Undergraduate Seminars](https://biology.mit.edu/undergraduate/current-students/subject-offerings/advanced-undergraduate-seminars/) offered by the Biology Department at MIT. These seminars are tailored for students with an interest in using primary research literature to discuss and learn about current biological research in a highly interactive setting. Many instructors of the Advanced Undergraduate Seminars are postdoctoral scientists with a strong interest in teaching.\n",
+        "full_description": null,
+        "last_modified": "2024-02-07T21:33:38Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/7-343-microbial-megaproducers-discovery-biosynthesis-engineering-and-applications-of-natural-products-fall-2020",
+        "professional": false
+    },
+    {
+        "id": 4805,
+        "topics": [
+            {
+                "id": 40,
+                "name": "Literature"
+            },
+            {
+                "id": 38,
+                "name": "Humanities"
+            },
+            {
+                "id": 108,
+                "name": "Comparative Literature"
+            },
+            {
+                "id": 86,
+                "name": "Fiction"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Written Assignments"
+        ],
+        "departments": [
+            {
+                "department_id": "21L",
+                "name": "Literature"
+            },
+            {
+                "department_id": "WGS",
+                "name": "Women's and Gender Studies"
+            },
+            {
+                "department_id": "CMS-W",
+                "name": "Comparative Media Studies/Writing"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 3445,
+                "instructors": [
+                    {
+                        "id": 2032,
+                        "first_name": "John",
+                        "last_name": "Picker",
+                        "full_name": "Prof. John Picker"
+                    }
+                ],
+                "image": {
+                    "id": 3503,
+                    "url": "https://ocw.mit.edu/courses/21l-430-popular-culture-and-narrative-literature-comics-and-culture-fall-2010/773953de80625bd2b2839bd1f54b211a_21l-430f10.jpg",
+                    "description": "Grid-paper notebook (reinforced with thin cardstock) with comic strip on the cover. (Photo courtesy of delgrosso on Flickr.)",
+                    "alt": "Photo of a grid-paper notebook with comic strip on the cover. The notebook is reinforced with thin cardstock."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "a672ca756e5f4d5bb54f30c39c1a3c04",
+                "title": "Popular Culture and Narrative: Literature, Comics, and Culture",
+                "description": "In this course, we will investigate popular culture and narrative by focusing on the relationship between literary texts and comics. Several questions shape the syllabus and provide a framework for approaching the course materials: How do familiar aspects of comics trace their origins to literary texts and broader cultural concerns? How have classic comics gone on to influence literary fiction? In what ways do contemporary graphic narratives bring a new kind of seriousness of purpose to comics, blurring what's left of the boundaries between the highbrow and the lowbrow? Readings and materials for the course range from the nineteenth century to the present, and include novels, short stories, essays, older and newer comics, and some older and newer films. Expectations include diligent reading, active participation, occasional discussion leading, and two papers.\n",
+                "full_description": null,
+                "last_modified": "2024-02-07T22:02:52Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/21l-430-popular-culture-and-narrative-literature-comics-and-culture-fall-2010",
+                "slug": "courses/21l-430-popular-culture-and-narrative-literature-comics-and-culture-fall-2010",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2010,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 3503,
+            "url": "https://ocw.mit.edu/courses/21l-430-popular-culture-and-narrative-literature-comics-and-culture-fall-2010/773953de80625bd2b2839bd1f54b211a_21l-430f10.jpg",
+            "description": "Grid-paper notebook (reinforced with thin cardstock) with comic strip on the cover. (Photo courtesy of delgrosso on Flickr.)",
+            "alt": "Photo of a grid-paper notebook with comic strip on the cover. The notebook is reinforced with thin cardstock."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "21L.430",
+                    "department": {
+                        "department_id": "21L",
+                        "name": "Literature"
+                    },
+                    "listing_type": "primary"
+                },
+                {
+                    "value": "WGS.492",
+                    "department": {
+                        "department_id": "WGS",
+                        "name": "Women's and Gender Studies"
+                    },
+                    "listing_type": "cross-listed"
+                },
+                {
+                    "value": "CMS.920",
+                    "department": null,
+                    "listing_type": "cross-listed"
+                }
+            ]
+        },
+        "readable_id": "21L.430+fall_2010",
+        "title": "Popular Culture and Narrative: Literature, Comics, and Culture",
+        "description": "In this course, we will investigate popular culture and narrative by focusing on the relationship between literary texts and comics. Several questions shape the syllabus and provide a framework for approaching the course materials: How do familiar aspects of comics trace their origins to literary texts and broader cultural concerns? How have classic comics gone on to influence literary fiction? In what ways do contemporary graphic narratives bring a new kind of seriousness of purpose to comics, blurring what's left of the boundaries between the highbrow and the lowbrow? Readings and materials for the course range from the nineteenth century to the present, and include novels, short stories, essays, older and newer comics, and some older and newer films. Expectations include diligent reading, active participation, occasional discussion leading, and two papers.\n",
+        "full_description": null,
+        "last_modified": "2024-02-07T22:02:52Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/21l-430-popular-culture-and-narrative-literature-comics-and-culture-fall-2010",
+        "professional": false
+    },
+    {
+        "id": 3894,
+        "topics": [
+            {
+                "id": 263,
+                "name": "Music History"
+            },
+            {
+                "id": 46,
+                "name": "Music"
+            },
+            {
+                "id": 239,
+                "name": "Music Theory"
+            },
+            {
+                "id": 240,
+                "name": "Music Performance"
+            },
+            {
+                "id": 90,
+                "name": "Fine Arts"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Problem Sets",
+            "Exams with Solutions",
+            "Projects with Examples"
+        ],
+        "departments": [
+            {
+                "department_id": "21M",
+                "name": "Music and Theater Arts"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 2534,
+                "instructors": [
+                    {
+                        "id": 1055,
+                        "first_name": "Brian",
+                        "last_name": "Robison",
+                        "full_name": "Prof. Brian Robison"
+                    }
+                ],
+                "image": {
+                    "id": 2598,
+                    "url": "https://ocw.mit.edu/courses/21m-301-harmony-and-counterpoint-i-spring-2005/b98cc3acc6f587077d153966785e29e7_21m-301s05.jpg",
+                    "description": "Image of Ludwig van Beethoven.(Image courtesy of Library of Congress, Prints and Photographs Division [reproduction number, LC-USZ62-13745 (b&w film copy neg.)].)",
+                    "alt": "A black and white painting of Ludwig van Beethoven."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "4a16a746d8d94c67b1cd15a83a556ab8",
+                "title": "Harmony and Counterpoint I",
+                "description": "In this subject we will study the basic harmonic, melodic, and formal practices of western music, principally the classical music of central Europe during the eighteenth century. Topics will include diatonic harmony, simple counterpoint in two parts, and tones of figuration. The coursework will combine composition, listening, analysis, and work in sight-singing and keyboard musicianship.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T19:34:24Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/21m-301-harmony-and-counterpoint-i-spring-2005",
+                "slug": "courses/21m-301-harmony-and-counterpoint-i-spring-2005",
+                "availability": "Current",
+                "semester": "Spring",
+                "year": 2005,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 2598,
+            "url": "https://ocw.mit.edu/courses/21m-301-harmony-and-counterpoint-i-spring-2005/b98cc3acc6f587077d153966785e29e7_21m-301s05.jpg",
+            "description": "Image of Ludwig van Beethoven.(Image courtesy of Library of Congress, Prints and Photographs Division [reproduction number, LC-USZ62-13745 (b&w film copy neg.)].)",
+            "alt": "A black and white painting of Ludwig van Beethoven."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "21M.301",
+                    "department": {
+                        "department_id": "21M",
+                        "name": "Music and Theater Arts"
+                    },
+                    "listing_type": "primary"
+                }
+            ]
+        },
+        "readable_id": "21M.301+spring_2005",
+        "title": "Harmony and Counterpoint I",
+        "description": "In this subject we will study the basic harmonic, melodic, and formal practices of western music, principally the classical music of central Europe during the eighteenth century. Topics will include diatonic harmony, simple counterpoint in two parts, and tones of figuration. The coursework will combine composition, listening, analysis, and work in sight-singing and keyboard musicianship.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T19:34:24Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/21m-301-harmony-and-counterpoint-i-spring-2005",
+        "professional": false
+    },
+    {
+        "id": 4807,
+        "topics": [
+            {
+                "id": 32,
+                "name": "Engineering"
+            },
+            {
+                "id": 5,
+                "name": "Computer Science"
+            },
+            {
+                "id": 144,
+                "name": "Programming Languages"
+            },
+            {
+                "id": 184,
+                "name": "Software Design and Engineering"
+            },
+            {
+                "id": 155,
+                "name": "Theory of Computation"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Lecture Notes",
+            "Projects",
+            "Competition Videos",
+            "Lecture Videos",
+            "Other Video"
+        ],
+        "departments": [
+            {
+                "department_id": "6",
+                "name": "Electrical Engineering and Computer Science"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 3447,
+                "instructors": [
+                    {
+                        "id": 1805,
+                        "first_name": "Saman",
+                        "last_name": "Amarasinghe",
+                        "full_name": "Prof. Saman Amarasinghe"
+                    },
+                    {
+                        "id": 2033,
+                        "first_name": "Rodric",
+                        "last_name": "Rabbah",
+                        "full_name": "Dr. Rodric Rabbah"
+                    }
+                ],
+                "image": {
+                    "id": 3505,
+                    "url": "https://ocw.mit.edu/courses/6-189-multicore-programming-primer-january-iap-2007/29adf97891c3856cb3652b9848e93c55_6-189iap07.jpg",
+                    "description": "The PLAYSTATION®3 platform was used to teach students about parallel programming and multicore architectures. (Image courtesy of Sony Computer Entertainment, Inc. Used with permission.)",
+                    "alt": "The Playstation 3."
+                },
+                "level": [
+                    {
+                        "code": "undergraduate",
+                        "name": "Undergraduate"
+                    }
+                ],
+                "run_id": "9055002a47dc7c9622db460adcaacc3c",
+                "title": "Multicore Programming Primer",
+                "description": "The course serves as an introductory course in parallel programming. It offers a series of lectures on parallel programming concepts as well as a group project providing hands-on experience with parallel programming. The students will have the unique opportunity to use the cutting-edge PLAYSTATION 3 development platform as they learn how to design and implement exciting applications for multicore architectures. At the end of the course, students will have an understanding of:\n\n*   Fundamental design philosophies that multicore architectures address.\n*   Parallel programming philosophies and emerging best practices.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month. The course can be tailored to a normal semester time line.\n\nAcknowledgements\n----------------\n\nThe course instructors are extremely grateful to [Sony](http://www.sony.com/), [IBM](http://www.ibm.com/us/), and [Toshiba](http://www.toshiba.com/tai/) for their support.\n",
+                "full_description": null,
+                "last_modified": "2024-02-07T21:52:28Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/6-189-multicore-programming-primer-january-iap-2007",
+                "slug": "courses/6-189-multicore-programming-primer-january-iap-2007",
+                "availability": "Current",
+                "semester": "January IAP",
+                "year": 2007,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 3505,
+            "url": "https://ocw.mit.edu/courses/6-189-multicore-programming-primer-january-iap-2007/29adf97891c3856cb3652b9848e93c55_6-189iap07.jpg",
+            "description": "The PLAYSTATION®3 platform was used to teach students about parallel programming and multicore architectures. (Image courtesy of Sony Computer Entertainment, Inc. Used with permission.)",
+            "alt": "The Playstation 3."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "6.189",
+                    "department": {
+                        "department_id": "6",
+                        "name": "Electrical Engineering and Computer Science"
+                    },
+                    "listing_type": "primary"
+                }
+            ]
+        },
+        "readable_id": "6.189+january-iap_2007",
+        "title": "Multicore Programming Primer",
+        "description": "The course serves as an introductory course in parallel programming. It offers a series of lectures on parallel programming concepts as well as a group project providing hands-on experience with parallel programming. The students will have the unique opportunity to use the cutting-edge PLAYSTATION 3 development platform as they learn how to design and implement exciting applications for multicore architectures. At the end of the course, students will have an understanding of:\n\n*   Fundamental design philosophies that multicore architectures address.\n*   Parallel programming philosophies and emerging best practices.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month. The course can be tailored to a normal semester time line.\n\nAcknowledgements\n----------------\n\nThe course instructors are extremely grateful to [Sony](http://www.sony.com/), [IBM](http://www.ibm.com/us/), and [Toshiba](http://www.toshiba.com/tai/) for their support.\n",
+        "full_description": null,
+        "last_modified": "2024-02-07T21:52:28Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/6-189-multicore-programming-primer-january-iap-2007",
+        "professional": false
+    },
+    {
+        "id": 4655,
+        "topics": [
+            {
+                "id": 164,
+                "name": "Topology and Geometry"
+            },
+            {
+                "id": 37,
+                "name": "Mathematics"
+            }
+        ],
+        "offered_by": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "platform": {
+            "code": "ocw",
+            "name": "OCW"
+        },
+        "course_feature": [
+            "Presentation Assignments",
+            "Written Assignments with Examples",
+            "Instructor Insights"
+        ],
+        "departments": [
+            {
+                "department_id": "18",
+                "name": "Mathematics"
+            }
+        ],
+        "certification": false,
+        "prices": [],
+        "runs": [
+            {
+                "id": 3295,
+                "instructors": [
+                    {
+                        "id": 914,
+                        "first_name": "Haynes",
+                        "last_name": "Miller",
+                        "full_name": "Prof. Haynes Miller"
+                    }
+                ],
+                "image": {
+                    "id": 3355,
+                    "url": "https://ocw.mit.edu/courses/18-915-graduate-topology-seminar-kan-seminar-fall-2014/470a8f4542a58b76a97f3cf6fc6c95d9_18-915f14.jpg",
+                    "description": "Graduate student, Lyubo Panchev, gives a lecture in the Fall 2014 Kan seminar. Photo courtesy of MIT OpenCourseWare.",
+                    "alt": "Male student in blue dress shirt in fron of black board and speaking to a small group of students."
+                },
+                "level": [
+                    {
+                        "code": "graduate",
+                        "name": "Graduate"
+                    }
+                ],
+                "run_id": "461dcffb030ff00240d0238375fce86f",
+                "title": "Graduate Topology Seminar: Kan Seminar",
+                "description": "This is a literature seminar with a focus on classic papers in Algebraic Topology. It is named after the late MIT professor [Daniel Kan](http://math.mit.edu/about/history/obituaries/kan.php). Each student gives one or two talks on each of three papers, chosen in consultation with the instructor, reads all the papers presented by other students, and writes reactions to the papers. This course is useful not only to students pursuing algebraic topology as a field of study, but also to those interested in symplectic geometry, representation theory, and combinatorics.\n",
+                "full_description": null,
+                "last_modified": "2024-02-12T19:49:59Z",
+                "published": true,
+                "languages": null,
+                "url": "https://ocw.mit.edu/courses/18-915-graduate-topology-seminar-kan-seminar-fall-2014",
+                "slug": "courses/18-915-graduate-topology-seminar-kan-seminar-fall-2014",
+                "availability": "Current",
+                "semester": "Fall",
+                "year": 2014,
+                "start_date": null,
+                "end_date": null,
+                "enrollment_start": null,
+                "enrollment_end": null,
+                "prices": null,
+                "checksum": null
+            }
+        ],
+        "image": {
+            "id": 3355,
+            "url": "https://ocw.mit.edu/courses/18-915-graduate-topology-seminar-kan-seminar-fall-2014/470a8f4542a58b76a97f3cf6fc6c95d9_18-915f14.jpg",
+            "description": "Graduate student, Lyubo Panchev, gives a lecture in the Fall 2014 Kan seminar. Photo courtesy of MIT OpenCourseWare.",
+            "alt": "Male student in blue dress shirt in fron of black board and speaking to a small group of students."
+        },
+        "learning_path_parents": [],
+        "user_list_parents": [],
+        "resource_type": "course",
+        "course": {
+            "course_numbers": [
+                {
+                    "value": "18.915",
+                    "department": {
+                        "department_id": "18",
+                        "name": "Mathematics"
+                    },
+                    "listing_type": "primary"
+                }
+            ]
+        },
+        "readable_id": "18.915+fall_2014",
+        "title": "Graduate Topology Seminar: Kan Seminar",
+        "description": "This is a literature seminar with a focus on classic papers in Algebraic Topology. It is named after the late MIT professor [Daniel Kan](http://math.mit.edu/about/history/obituaries/kan.php). Each student gives one or two talks on each of three papers, chosen in consultation with the instructor, reads all the papers presented by other students, and writes reactions to the papers. This course is useful not only to students pursuing algebraic topology as a field of study, but also to those interested in symplectic geometry, representation theory, and combinatorics.\n",
+        "full_description": null,
+        "last_modified": "2024-02-12T19:49:59Z",
+        "published": true,
+        "languages": null,
+        "url": "https://ocw.mit.edu/courses/18-915-graduate-topology-seminar-kan-seminar-fall-2014",
+        "professional": false
+    }
 ]

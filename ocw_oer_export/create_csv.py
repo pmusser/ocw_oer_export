@@ -8,7 +8,7 @@ import logging
 
 from .client import extract_data_from_api
 from .data_handler import extract_data_from_json
-from .constants import API_URL
+from .config import API_URL
 from .utilities import normalize_course_url, normalize_keywords, text_cleanup
 
 
@@ -56,6 +56,26 @@ def create_ocw_topic_to_oer_subject_mapping(path=None, file_name=None):
         return {row["OCW Topic"]: row["OER Subject"] for row in reader}
 
 
+def get_cr_sublevel(levels):
+    """Set the value(s) of CR_SUBLEVEL based on the course levels."""
+    level_mappings = {
+        "Undergraduate": ["Community College/Lower Division", "College/Upper Division"],
+        "Graduate": ["Graduate/Professional"],
+        "High School": ["High School", "Community College/Lower Division"],
+        "Non-Credit": ["Career/Technical Education"],
+    }
+    sublevels = [
+        sublevel for level in levels for sublevel in level_mappings.get(level["name"])
+    ]
+    return "|".join(sorted(set(sublevels)))
+
+
+def get_description_in_plain_text(description):
+    """Get Course Resource plain text description by cleaning up markdown and HTML."""
+    cleaned_description = text_cleanup(description)
+    return cleaned_description
+
+
 def get_cr_subjects(ocw_topics_mapping, ocw_course_topics):
     """
     Get OER formatted Course Resource Subjects list.
@@ -87,6 +107,22 @@ def get_cr_keywords(fm_ocw_keywords_mapping, list_of_topics_objs, course_url):
     if keywords:
         return normalize_keywords(keywords)
     return "|".join(topic["name"] for topic in list_of_topics_objs)
+
+
+def get_cr_create_date(semester, year):
+    """Convert a semester and year into a ballpark start date."""
+    semester_start_dates = {
+        "Fall": "09-01",
+        "Spring": "02-01",
+        "Summer": "06-01",
+        "January IAP": "01-01",
+    }
+    start_date = semester_start_dates.get(semester)
+    if start_date and year:
+        return f"{year}-{start_date}"
+    if year:
+        return f"{year}-01-01"
+    return ""
 
 
 def get_cr_authors(list_of_authors_objs):
@@ -136,12 +172,6 @@ def get_cr_accessibility(ocw_course_feature_tags):
     return "|".join(tags)
 
 
-def get_description_in_plain_text(description):
-    """Get Course Resource plain text description by cleaning up markdown and HTML."""
-    cleaned_description = text_cleanup(description)
-    return cleaned_description
-
-
 def transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping):
     """Transform a single course according to OER template."""
     course_runs = course["runs"][0]
@@ -149,8 +179,8 @@ def transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping)
         "CR_TITLE": course["title"],
         "CR_URL": course_runs["url"],
         "CR_MATERIAL_TYPE": "Full Course",
-        "CR_Media_Formats": "Text/HTML",
-        "CR_SUBLEVEL": "null",
+        "CR_MEDIA_FORMATS": "Text/HTML",
+        "CR_SUBLEVEL": get_cr_sublevel(course_runs["level"]),
         "CR_ABSTRACT": get_description_in_plain_text(course_runs["description"]),
         "CR_LANGUAGE": "en",
         "CR_COU_TITLE": "Creative Commons Attribution Non Commercial Share Alike 4.0",
@@ -159,11 +189,14 @@ def transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping)
         "CR_KEYWORDS": get_cr_keywords(
             fm_ocw_keywords_mapping, course["topics"], course_runs["url"]
         ),
+        "CR_CREATE_DATE": get_cr_create_date(
+            course_runs["semester"], course_runs["year"]
+        ),
         "CR_AUTHOR_NAME": get_cr_authors(course_runs["instructors"]),
         "CR_PROVIDER": "MIT",
         "CR_PROVIDER_SET": "MIT OpenCourseWare",
         "CR_COU_URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-        "CR_COU_COPYRIGHT_HOLDER": "MIT",
+        "CR_COU_COPYRIGHT_HOLDER": get_cr_authors(course_runs["instructors"]),
         "CR_EDUCATIONAL_USE": get_cr_educational_use(course["course_feature"]),
         "CR_ACCESSIBILITY": get_cr_accessibility(course["course_feature"]),
     }
@@ -209,7 +242,7 @@ def create_csv(
         "CR_TITLE",
         "CR_URL",
         "CR_MATERIAL_TYPE",
-        "CR_Media_Formats",
+        "CR_MEDIA_FORMATS",
         "CR_SUBLEVEL",
         "CR_ABSTRACT",
         "CR_LANGUAGE",
@@ -217,6 +250,7 @@ def create_csv(
         "CR_PRIMARY_USER",
         "CR_SUBJECT",
         "CR_KEYWORDS",
+        "CR_CREATE_DATE",
         "CR_AUTHOR_NAME",
         "CR_PROVIDER",
         "CR_PROVIDER_SET",

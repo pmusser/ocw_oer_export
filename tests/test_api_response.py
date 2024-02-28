@@ -1,5 +1,5 @@
 import unittest
-from ocw_oer_export.constants import API_URL
+from ocw_oer_export.config import API_URL
 from ocw_oer_export.client import make_request
 
 
@@ -8,8 +8,12 @@ class APITestCase(unittest.TestCase):
     contains all necessary fields for OER template."""
 
     def test_api_fields(self):
-        """Test that we have all the needed fields in the API.
-        Fields required: title, url, description, topics, instructors, course_feature"""
+        """
+        Test that the API contains all the expected fields.
+
+        Fields required: title, url, level, description, topics,
+        instructors, semester, year, course_feature
+        """
         page_size = 1
         response = make_request(API_URL, page_size)
 
@@ -21,10 +25,15 @@ class APITestCase(unittest.TestCase):
         # Assert that only one item is returned
         self.assertEqual(len(api_data), 1)
 
-        item = api_data[0]
-        self.assertIn("title", item)
-        self.assertIn("url", item)
-        self.assertIn("description", item)
-        self.assertIn("topics", item)
-        self.assertIn("course_feature", item)
-        self.assertIn("instructors", item["runs"][0])
+        course = api_data[0]
+        course_runs = course["runs"][0]
+
+        self.assertIn("title", course)
+        self.assertIn("url", course)
+        self.assertIn("level", course_runs)
+        self.assertIn("description", course)
+        self.assertIn("topics", course)
+        self.assertIn("instructors", course_runs)
+        self.assertIn("semester", course_runs)
+        self.assertIn("year", course_runs)
+        self.assertIn("course_feature", course)

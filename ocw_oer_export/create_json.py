@@ -4,7 +4,7 @@ Module to interact with MIT OpenCourseWare API and write data to a JSON file.
 import json
 import logging
 
-from .constants import API_URL
+from .config import API_URL
 from .client import extract_data_from_api
 
 logging.basicConfig(level=logging.INFO)

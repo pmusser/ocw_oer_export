@@ -26,7 +26,7 @@ def main():
     parser.add_argument(
         "--input_path",
         default="/private/output/ocw_api_data.json",
-        help="Output path for the CSV file",
+        help="Input path for the JSON file",
     )
     parser.add_argument(
         "--output_path",

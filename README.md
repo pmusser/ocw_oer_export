@@ -44,12 +44,17 @@ Therefore, the above commands will generate `private/output/ocw_oer_export.csv` 
 
 If you want to change this, you will not only have to change the `output_path` in the function (`create_csv` or `create_json`) but also have to change the mapping in `docker-compose.yml`.
 
+## Environment Variables
+
+By default, this project uses MIT Open's Production API, as given in `ocw_oer_export/config.py`.
+To use the RC API or local, create an environment file, `.env` in the project's root directory and add the relevant base URL:
+Eg. `API_BASE_URL=https://mitopen-rc.odl.mit.edu` or `API_BASE_URL=http://localhost:8063`
+
 ## Requirements
 
 For successful execution and correct output, ensure the [MIT Open's API](https://mit-open-rc.odl.mit.edu//api/v1/courses/?platform=ocw) contains the following fields:
 
-`title`, `url`, `description`, `topics`, `course_feature`, `runs: instructors`
-
+`title`, `url`, `runs: level`, `description`, `topics`, `runs: instructors`, `runs: semester`, `runs: year`, `course_feature`
 Additionally, the `mapping_files` should be up-to-date. If new topics are added in OCW without corresponding mappings in `ocw_oer_export/mapping_files/ocw_topic_to_oer_subject.csv`, this will lead to `null` entries for those topics in the CSV (`CR_SUBJECT`). In addition to that, make sure `fm_keywords_exports.csv` is also present.
 
 ## Tests
