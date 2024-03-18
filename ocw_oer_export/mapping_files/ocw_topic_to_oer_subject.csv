@@ -1,7 +1,7 @@
 OCW Topic,OER Subject,OER Keyword
 Business,Business and Communication,
 Accounting,Accounting,
-Business Ethics,Business Ethicates,
+Business Ethics,Philosophy,Business Ethics
 Entrepreneurship,Business and Communication,Entrepreneurship
 Finance,Finance,
 Globalization,Business and Communication,Globalization
@@ -192,15 +192,15 @@ Biography,Literature|Reading Literature,Biography
 Classics,Literature|Reading Literature,Classics
 Comedy,Literature|Reading Literature,Comedy
 Comparative Literature,Literature|Reading Literature,Comparative Literature
-Creative Writing,Literature|Composition and Rehtoric,Creative Writing
+Creative Writing,Literature|Composition and Rhetoric,Creative Writing
 Criticism,Literature,Criticism
 Drama,Literature|Reading Literature,Drama
 Fiction,Literature|Reading Literature,Fiction
 International Literature,Literature|Reading Literature,International Literature
 Nonfiction Prose *Periodic Literature,Literature|Reading Literature,Nonfiction Prose
 Poetry,Literature|Reading Literature,Poetry
-Rhetoric,Literature|Composition and Rehtoric,
-Technical Writing,Literature|Composition and Rehtoric,Technical Writing
+Rhetoric,Literature|Composition and Rhetoric,
+Technical Writing,Literature|Composition and Rhetoric,Technical Writing
 Philosophy,Philosophy,
 Epistemology,Philosophy,Epistemology
 Ethics,Philosophy,Ethics
@@ -249,7 +249,7 @@ Climate Studies,Physical Science,Climate Studies
 Environmental Science,Environmental Science,
 Geobiology,Physical Science,Geobiology
 Geochemistry,Physical Science,Geochemistry
-Geology,Physical Geology,
+Geology,Geology,
 Geophysics,Physical Science,Geophysics
 Oceanography,Oceanography,
 Planetary Science,Physical Science|Atmospheric Science,Planetary Science
@@ -321,7 +321,7 @@ Indigenous Studies,Ethnic Studies|Cultural Geography,Indigenous Studies
 Latin and Caribbean Studies,World Cultures,Latin and Caribbean Studies
 Middle Eastern Studies,World Cultures,Middle Eastern Studies
 The Developing World,Cultural Geography,Developing World
-Women’s Studies,Women’s Studies,
+Women’s Studies,Gender and Sexuality Studies,Women's Studies
 Teaching and Education,Education,Teaching
 Curriculum and Teaching,Education,Curriculum|Teaching
 Education Policy,Education,Education Policy
