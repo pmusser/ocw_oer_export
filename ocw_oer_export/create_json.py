@@ -1,6 +1,7 @@
 """
 Module to interact with MIT OpenCourseWare API and write data to a JSON file.
 """
+
 import json
 import logging
 

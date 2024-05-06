@@ -1,6 +1,7 @@
 """
 Module for interacting with the MIT OpenCourseWare API.
 """
+
 import math
 import logging
 import requests

@@ -1,6 +1,7 @@
 """
 Module for loading environment settings and setting API base URL based on the current environment.
 """
+
 import os
 from dotenv import load_dotenv
 

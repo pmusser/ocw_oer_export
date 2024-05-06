@@ -1,6 +1,7 @@
 """
 Module for extracting and loading data to/from JSON file
 """
+
 import json
 import logging
 

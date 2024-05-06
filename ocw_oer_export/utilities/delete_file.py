@@ -1,6 +1,7 @@
 """
 Module for deleting a file.
 """
+
 import os
 
 

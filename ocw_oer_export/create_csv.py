@@ -1,6 +1,7 @@
 """
 Module for creating OER-template CSV file with data extracted from MIT OpenCourseWare API.
 """
+
 import csv
 import os
 import logging

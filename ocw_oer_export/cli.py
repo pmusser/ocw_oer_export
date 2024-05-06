@@ -4,6 +4,7 @@ Command-line interface (CLI) for the OCW OER Export Project.
 This module provides a CLI to generate JSON or CSV files containing
 MIT OpenCourseWare courses' metadata.
 """
+
 import argparse
 from .create_csv import create_csv
 from .create_json import create_json
