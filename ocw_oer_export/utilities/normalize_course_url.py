@@ -1,5 +1,5 @@
 """
-Module for normalizing OCW FM export course URLs to the format comparable with MIT Open's API.
+Module for normalizing OCW FM export course URLs to the format comparable with MIT Learn's API.
 """
 
 
@@ -8,7 +8,7 @@ def normalize_course_url(url):
     The OCW FM export format includes the department name:
     'ocw.mit.edu/courses/department_name/course_metadata'
 
-    This function removes the 'department_name' to match the MIT Open's API format:
+    This function removes the 'department_name' to match the MIT Learn's API format:
     'ocw.mit.edu/courses/course_metadata'
 
     Example:
