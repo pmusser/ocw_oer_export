@@ -77,7 +77,7 @@ jobs:
           run:
             |
             echo "Creating release: $TAG_NAME"
-            gh release create "${{ env.TAG_NAME }}" ./private/output/ocw_oer_export.csv -p -t "${{ env.RELEASE_TITLE }}" -n "This release was created for CSV weekly output. Please get the CSV file from the Assets listed below."
+            gh release create "${{ env.TAG_NAME }}" ./private/output/ocw_oer_export.csv -p -t "${{ env.RELEASE_TITLE }}" -n "This release was created for CSV weekly output. Please get the CSV file from the Assets listed below." --target $GITHUB_SHA
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -87,7 +87,12 @@ jobs:
             if gh release view $LATEST_RELEASE_NAME
             then
                 gh release delete $LATEST_RELEASE_NAME
+                if git rev-parse $LATEST_RELEASE_NAME
+                then
+                  git tag -d $LATEST_RELEASE_NAME
+                  git push --delete origin $LATEST_RELEASE_NAME
+                fi
             fi
-            gh release create $LATEST_RELEASE_NAME ./private/output/ocw_oer_export.csv -t "Latest Release" -n "This release was created for CSV weekly output. This release contains the most recent CSV. Please get the CSV file from the Assets listed below." --latest
+            gh release create $LATEST_RELEASE_NAME ./private/output/ocw_oer_export.csv -t "Latest Release" -n "This release was created for CSV weekly output. This release contains the most recent CSV. Please get the CSV file from the Assets listed below." --latest --target $GITHUB_SHA
           env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
