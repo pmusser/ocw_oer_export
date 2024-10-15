@@ -184,7 +184,7 @@ def transform_single_course(course, ocw_topics_mapping, fm_ocw_keywords_mapping)
         "CR_SUBLEVEL": get_cr_sublevel(course_runs["level"]),
         "CR_ABSTRACT": get_description_in_plain_text(course_runs["description"]),
         "CR_LANGUAGE": "en",
-        "CR_COU_TITLE": "Creative Commons Attribution Non Commercial Share Alike 4.0",
+        "CR_COU_TITLE": "cc-by-nc-sa",
         "CR_PRIMARY_USER": "student|teacher",
         "CR_SUBJECT": get_cr_subjects(ocw_topics_mapping, course["topics"]),
         "CR_KEYWORDS": get_cr_keywords(
